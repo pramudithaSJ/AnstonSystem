@@ -1,0 +1,61 @@
+.datatable{
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-bottom: 80px;
+}
+.addnew{
+    margin-left: 10%;
+    background-color: rgb(14, 50, 38);
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.addnew1{
+    margin: 10px;
+    background-color: rgb(14, 50, 38);
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.addnew:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+.addnew1:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+th{
+    background-color:rgb(14, 50, 38);
+}
+
+.addcover{
+    border: 10px;
+    margin-top: -500px;
+    margin-left: 65%;
+    width: 500px;
+    height: 500px;
+    
+}
+.UpdateBtn{
+    width: 100px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(14, 50, 38);
+    padding: 10px;
+
+}
+.cancelBtn{
+    width: 100px;
+    color: aliceblue;
+    background-color: rgb(118, 3, 3);
+    padding: 10px;
+    margin-right: 120px;
+    right: 0;
+    
+}
+.cancelBtn:hover{
+   background-color: rgb(215, 30, 51);
+}
+.UpdateBtn:hover{
+    background-color: darkgreen;
+}
