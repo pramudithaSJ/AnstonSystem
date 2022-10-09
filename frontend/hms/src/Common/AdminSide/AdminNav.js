@@ -20,7 +20,7 @@ function AdminNav(){
                 <section><a href="/" className="Adnavbar-item"><i className="icon"><FaHouseUser/></i>Rooms</a></section>
                 <section><a href="/" className="Adnavbar-item"><i className="icon"><FaBookmark/></i>Room Booking</a></section>
                 <section><a href="/EmployeeView" className="Adnavbar-item"><i className="icon"><FaRegIdBadge/></i>Employees</a></section>
-                <section><a href="/" className="Adnavbar-item"><i className="icon"><FaMoneyCheckAlt/></i>payment</a></section>
+                <section><a href="/PaymentView" className="Adnavbar-item"><i className="icon"><FaMoneyCheckAlt/></i>payment</a></section>
                 <section><a href="/AdminPanelCustomers" className="Adnavbar-item"><i className="icon"><FaUserTie/></i>Customers</a></section>
                 </section>
         <section className="adminfooter">
