@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react';
 import {Link, useHistory} from "react-router-dom";
 import axios from "axios";
-import AdminSideNav from "./AdminSideNav";
+import AdminNav from '../Common/AdminSide/AdminNav';
 import '../CSS/Admin/tableEmployee.css';
 
 const AdminPanelCustomers = () => {
@@ -33,7 +33,7 @@ const AdminPanelCustomers = () => {
 
     return (
         <div className="row1">
-            <div className="col-2"> <AdminSideNav/></div>
+            <div className="col-2"> <AdminNav/></div>
             <div className="col-10"> <br/>
                 {/*<Search/>*/}
                 <div className="col-xs-6">
