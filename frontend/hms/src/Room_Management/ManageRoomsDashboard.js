@@ -3,7 +3,7 @@ import { useParams} from "react-router";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import '../CSS/Room_Management/ManageRoomsDashboard.css';
-import AdminSideNav from "../Admin/AdminSideNav";
+import AdminNav from '../Common/AdminSide/AdminNav';
 
 
 const ManageRoomsDashboard = () => {
@@ -43,7 +43,7 @@ const ManageRoomsDashboard = () => {
 
 
         <div className="row1">
-            <div className="col-2"> <AdminSideNav/></div>
+            <div className="col-2"> <AdminNav/></div>
             <div className="col-10"> <br/>
                 <div className="col-xs-6">
             <div className="searchBar">
