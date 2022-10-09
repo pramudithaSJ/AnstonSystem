@@ -98,11 +98,7 @@
     color: white;
   }
 
-  /* .header-top__logo{
-    background-image: url(../header/logo.png);
-    width: 20px;
-    height: 20px;
-  } */
+ 
 
   .headerLogo{
     width:200px;
@@ -110,7 +106,7 @@
    
     margin-left: 50px;
 
-    background-image: url(./logo.png);
+    
     background-size: cover;
 
     margin-top: -40px;
