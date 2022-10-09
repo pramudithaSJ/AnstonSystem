@@ -5,7 +5,7 @@ import AdminSideNav from "../Admin/AdminSideNav";
 import '../CSS/Admin/tableEmployee.css';
 import Search from "../Common/Search";
 import jsPDF from "jspdf";
-import AdminNav from "../Common/Adminside/adminNav"
+import AdminNav from '../Common/AdminSide/AdminNav';
 import "./Css/Foodlist.css"
 
 
@@ -43,7 +43,7 @@ const FoodManagement = () => {
             <div className="col-10"> <br/>
                 <div className="col-xs-6">
                     <div className="searchBar">
-                        <input type="search" className="form-control" placeholder="Search by name" onChange={event =>{setSearchWord(event.target.value)}}/>
+                        <input type="search" className="form-control" placeholder="Search by name / code" onChange={event =>{setSearchWord(event.target.value)}}/>
                     </div>
                 </div>
                 <div className="">
