@@ -154,11 +154,6 @@ const AddFood = () => {
 
 
             </div>
-                            <div className='addcover'>
-                                <video autoPlay loop muted>
-                                    <source src={addfood} type="video/mp4"/>
-                                </video>
-                            </div>
         </div>
     )
 }
