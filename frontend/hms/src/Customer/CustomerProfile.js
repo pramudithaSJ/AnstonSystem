@@ -62,18 +62,18 @@ const CustomerProfile = () => {
                                 <br />
                                 <div className="container   ">
                                     <div className="form-group">
-                                        <div><label>Name</label><input className="form-control" type="text" placeholder={Customer.Name}/>
+                                        <div><label>Name</label><input className="form-control" type="text" readOnly placeholder={Customer.Name}/>
                                         </div>
                                         <div><label>Address</label><input className="form-control"
-                                                                                    type="text" placeholder={Customer.Address}/></div>
+                                                                                    type="text" readOnly placeholder={Customer.Address}/></div>
                                         <div><label>PhoneNumber</label><input className="form-control"
-                                                                                          type="text" placeholder={Customer.PhoneNumber}/></div>
+                                                                                          type="text" readOnly placeholder={Customer.PhoneNumber}/></div>
                                         <div><label>NICNumber</label><input className="form-control"
-                                                                                         type="text" placeholder={Customer.NICNumber}/></div>
+                                                                                         type="text" readOnly placeholder={Customer.NICNumber}/></div>
                                         <div><label>Email</label><input className="form-control"
-                                                                             type="text" placeholder={Customer.Email}/></div>
+                                                                             type="text" readOnly placeholder={Customer.Email}/></div>
                                         <div><label>Password</label><input className="form-control"
-                                                                             type="text" placeholder={Customer.Password}/></div>
+                                                                             type="text" readOnly placeholder={Customer.Password}/></div>
                                         <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <button className="btn-btn-danger" type="reset" onClick={() => {
                                             if (window.confirm("Are you sure you want to delete your Profile?")) {
