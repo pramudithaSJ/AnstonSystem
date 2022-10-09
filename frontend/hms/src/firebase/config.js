@@ -3,15 +3,18 @@
 import firebase from "firebase";
 import 'firebase/storage';
 import 'firebase/firestore';
+
     // Your web app's Firebase configuration
-    var firebaseConfig = {
-        apiKey: "AIzaSyCuMhIvCzpAE9Y_dU7wbwP1z1RmOB_zXsY",
-        authDomain: "ninja-firegram-a5001.firebaseapp.com",
-        projectId: "ninja-firegram-a5001",
-        storageBucket: "ninja-firegram-a5001.appspot.com",
-        messagingSenderId: "194048465587",
-        appId: "1:194048465587:web:6e133e6dab487cf5026ec6"
-    };
+    const firebaseConfig = {
+        apiKey: "AIzaSyBBnxqXXn33v6aUEZZ1Ne4giJSltejQyp0",
+        authDomain: "hotelms-e2c1d.firebaseapp.com",
+        databaseURL: "https://hotelms-e2c1d-default-rtdb.firebaseio.com",
+        projectId: "hotelms-e2c1d",
+        storageBucket: "hotelms-e2c1d.appspot.com",
+        messagingSenderId: "11149223129",
+        appId: "1:11149223129:web:72d11e6005e0a6a7634ac8",
+        measurementId: "G-6VX63WX8WJ"
+      };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
 
