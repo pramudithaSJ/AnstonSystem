@@ -127,10 +127,13 @@ const genaratePDF=()=>{
                 </div>
 
             </div>
-            <Link class="btn btn-success" role="button" id={"generate"}onClick={genaratePDF}>
-                Genarate report for bonus .
-                <em className="fa fa-file-pdf-o" id="icon"></em>
-            </Link>
+
+            <div className='btnReport'>
+                <Link class="btn-btn-success" role="button" id={"generate"}onClick={genaratePDF}>
+                    Genarate report for bonus .
+                    <em className="fa fa-file-pdf-o" id="icon"></em>
+                </Link>
+            </div>
         </div>
 
         </div>

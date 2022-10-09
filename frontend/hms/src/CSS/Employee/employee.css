@@ -13,7 +13,7 @@
     opacity: 0.98;
 }
 .body{
-    background: url("../../Images/gift.png");
+    /* background: url("../../Images/gift.png"); */
     background-size: auto;
 }
 label{
@@ -41,4 +41,10 @@ label{
     height:32px;
     width:170px;
     
+}
+
+.btnReport{
+    width: 170px;
+    height: 30px;
+    background-color: #053930;
 }
