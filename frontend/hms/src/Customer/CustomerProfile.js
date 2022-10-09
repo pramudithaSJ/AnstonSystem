@@ -62,7 +62,7 @@ const CustomerProfile = () => {
                                 <br />
                                 <div className="container   ">
                                     <div className="form-group">
-                                        <div><label>Name</label><input className="form-control" type="text" readOnly placeholder={Customer.Name}/>
+                                        <div><label>Name</label><input className="form-control" type="text"  placeholder={Customer.Name}/>
                                         </div>
                                         <div><label>Address</label><input className="form-control"
                                                                                     type="text" readOnly placeholder={Customer.Address}/></div>
