@@ -105,7 +105,7 @@ input[type="file"] {
   font-weight: bolder;
 }
 .foodQuantity{
-  font-size: large;
+  font-size: medium;
   font-weight: bolder;
 }
 
@@ -141,9 +141,9 @@ input[type="file"] {
 }
 
 .viewFoodCard {
-  background: #dde3e3;
+  background: #d2d7d3;
   display: inline-block;
-  width: 400px;
+  width: 250px;
   text-align: center;
   cursor: pointer;
   padding: 8px;

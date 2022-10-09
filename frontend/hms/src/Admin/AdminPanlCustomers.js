@@ -49,7 +49,9 @@ const AdminPanelCustomers = () => {
                         <span className="counter pull-right"></span>
                         <br/><br/>
                     </div>
-                    <a href="/" className="btn btn-primary" role="button">
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="/" className="btn btn-primary" role="button" >
                          Customer Home
                     </a>
                     <a href={"/CustomerReport"} className="btn btn-success btngena" type="submit">Generate Report</a>
