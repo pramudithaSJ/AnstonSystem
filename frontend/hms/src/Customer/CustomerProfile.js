@@ -80,7 +80,7 @@ const CustomerProfile = () => {
                                                 deleteCustomer()
                                             }
                                             ;
-                                        }}>&nbsp;Delete</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        }}>&nbsp;Delete</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href={"/CustomerProfileUpdate"} className="btn-btn-warning" type="reset">&nbsp;Update</a>
                                         <br />
                                         <br />
