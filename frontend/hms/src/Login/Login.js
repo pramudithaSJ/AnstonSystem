@@ -60,7 +60,7 @@ const Login = () => {
                             <input className="form-control" type="password" id="input" placeholder=" " onChange={PasswordSetter} /><br></br>
                             <button className="btn-btn-primary" id="button" type="submit"  onClick={onSubmit} >Log in</button><br></br>
                             <a href={"/CustomerRegistration"} type="submit" id={"signupbutton"}><center><b><u>Sign Up</ u></b></center></a>
-                            <a href={"/AdminLogin"} type="submit" id={"adminLoginbutton"}><center><b><u>Admin Login</ u></b></center></a><br />
+
                         </div>
                     </div>
                 </form>
