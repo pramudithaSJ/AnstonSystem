@@ -7,7 +7,6 @@ import './images/homepage.jpg'
 
 
 
-
 function Homepage(){
 
 
@@ -26,7 +25,7 @@ return(
                     </section>
                     <section className="card">
                         <section className="mainimage1"></section>
-                        <button className="button"> Foods</button>
+                        <a href="/customerViewFood"><button className="button"> Foods</button></a>
                     </section>
                     <section className="card">
                         <section className="mainimage2"></section>
