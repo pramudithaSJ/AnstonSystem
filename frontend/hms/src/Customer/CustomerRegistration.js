@@ -2,7 +2,8 @@ import React, {useState, useEffect} from "react"
 import {useHistory} from "react-router-dom";
 import axios from "axios";
  import img from '../Images/signUp.jpg';
-import Header from "../Common/HomePage/header/header";
+ import '../../src/CSS/Login/Login1.css'
+//import Header from "../Common/HomePage/header/header";
 
 //customer
 const CustomerRegistration = () => {
@@ -55,7 +56,7 @@ const CustomerRegistration = () => {
 
     return (
             <div>
-                <Header/>
+                
                 <div className="row">
                     <div className="col-sm-2"></div>
                         <div className=" col-sm-3">
@@ -80,8 +81,11 @@ const CustomerRegistration = () => {
                                                                                                      type="text" onChange={EmailSetter} /></div>
                                                     <div><label>Enter Password</label><input className="form-control"
                                                                                           type="text" onChange={PasswordSetter} /></div>
-                                                    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;
+                                                    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                     <button className="btn-btn-primary" type="submit" onClick={onSubmit}>&nbsp;Register</button>
+                                                    <br   />
+                                                    <label>Already have an account?  </label><br/>&nbsp;
+                                                    <a href={"/Login/Login"} type="submit" id={"loginbutton"} ><center><b><u>Login</ u></b></center></a><br />
                                                     <br />
                                                     <br />
                                                 </div>
