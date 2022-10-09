@@ -85,7 +85,7 @@ const CustomerRegistration = () => {
                                                     <button className="btn-btn-primary" type="submit" onClick={onSubmit}>&nbsp;Register</button>
                                                     <br   />
                                                     <label>Already have an account?  </label><br/>&nbsp;
-                                                    <a href={"/Login/Login"} type="submit" id={"loginbutton"} ><center><b><u>Login</ u></b></center></a><br />
+                                                      <a href={"/Login/Login"} type="submit" id={"loginbutton"} ><center><b><u>Login</ u></b></center></a><br />
                                                     <br />
                                                     <br />
                                                 </div>
