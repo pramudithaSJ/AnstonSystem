@@ -3,7 +3,7 @@ import {useHistory, useParams} from 'react-router-dom';
 import axios from "axios";
 import ProgressBar from "../comps/ProgressBar";
 import '../CSS/ProgressBar/ProgressBar.css'
-import AdminNav from '../Common/Adminside/adminNav';
+import AdminNav from '../Common/AdminSide/AdminNav';
 import "./Css/Foodlist.css"
 
 const UpdateFood = () => {

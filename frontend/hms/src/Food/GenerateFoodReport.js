@@ -55,7 +55,7 @@ const GenerateFoodReport = () => {
                 <div className="container" >
                     <br></br>
 
-                    <div><label> Fortune Inn & Suites </label>
+                    <div><label>  Annston Hotel & Spa  </label>
                     </div>
                     <div><label>{dateTime} </label>
                     </div>
