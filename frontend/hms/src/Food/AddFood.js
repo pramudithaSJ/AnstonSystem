@@ -5,7 +5,7 @@ import ProgressBar from "../comps/ProgressBar";
 import '../CSS/ProgressBar/ProgressBar.css'
 import AdminNav from '../Common/AdminSide/AdminNav'
 import "./Css/Foodlist.css"
-import addfood from "./Css/addfood.mp4"
+
 
 const AddFood = () => {
 
