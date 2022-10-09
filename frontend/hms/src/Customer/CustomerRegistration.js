@@ -82,10 +82,10 @@ const CustomerRegistration = () => {
                                                     <div><label>Enter Password</label><input className="form-control"
                                                                                           type="text" onChange={PasswordSetter} /></div>
                                                     <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <button className="btn-btn-primary" type="submit" onClick={onSubmit}>&nbsp;Register</button>
-                                                    <br   />
-                                                    <label>Already have an account?  </label><br/>&nbsp;
-                                                    <a href={"/Login/Login"} type="submit" id={"loginbutton"} ><center><b><u>Login</ u></b></center></a><br />
+                                                    <button className="btn-btn-primary" type="submit" onClick={onSubmit}>&nbsp;Register&nbsp;</button>
+                                                    
+                                                    <label>Already have an account?&nbsp; </label>
+                                                      <a href={"/Login/Login"} type="submit" id={"loginbutton"} ><center><b><u>Login</ u></b></center></a><br />
                                                     <br />
                                                     <br />
                                                 </div>

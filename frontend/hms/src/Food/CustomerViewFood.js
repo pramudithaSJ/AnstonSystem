@@ -92,7 +92,7 @@ const CustomerViewFood = () => {
                     return val
                 }
             }).map((food) => (
-                <div className="viewFoodCard " key={food._id}>
+                <div className="viewFoodCard" key={food._id}>
                     <div className="foodLabels" >{food.Name}</div>
                     <embed src={food.Image}
                            alt="img" width={"100%"}
