@@ -5,6 +5,8 @@ import AdminSideNav from "../Admin/AdminSideNav";
 import '../CSS/Admin/tableEmployee.css';
 import Search from "../Common/Search";
 import jsPDF from "jspdf";
+import AdminNav from "../Common/Adminside/adminNav"
+import "./Css/Foodlist.css"
 
 
 const FoodManagement = () => {
@@ -37,11 +39,11 @@ const FoodManagement = () => {
 
     return (
         <div className="row1">
-            <div className="col-2"> <AdminSideNav/></div>
+            <div className="col-2"> <AdminNav/></div>
             <div className="col-10"> <br/>
                 <div className="col-xs-6">
                     <div className="searchBar">
-                        <input type="search" className="form-control" placeholder="Search..." onChange={event =>{setSearchWord(event.target.value)}}/>
+                        <input type="search" className="form-control" placeholder="Search by name" onChange={event =>{setSearchWord(event.target.value)}}/>
                     </div>
                 </div>
                 <div className="">
@@ -54,16 +56,18 @@ const FoodManagement = () => {
                     </div>
 
 
-                    <a href="/addFood" className="btn btn-primary" role="button" style={{fontWeight: "bold"}}>
+                    <a href="/addFood" className="addnew" role="button" style={{fontWeight: "bold"}}>
                         <i className="fa fa-plus"></i> Add New Food
                     </a>
-                    <a href={"/FoodReport"} className="btn btn-success btngena" type="submit" style={{fontWeight: "bold"}} >Generate Report</a>
+                    <a href={"/FoodReport"} className="addnew1" type="submit" style={{fontWeight: "bold"}} > <i className="fa fa-download"></i> Generate Report</a>
 
 
                     <br /><br />
+                    
                     <div className="row1">
                         <div className="col-12">
-                            <div id="body"  className="table-responsive">
+                            <section className='datatable'>
+                            <div   className="table-responsive">
                                 <table className="table1  table-hover table-bordered table-striped  tablesorter"
                                        id="ipi-table">
                                     <thead className="thead-dark">
@@ -114,6 +118,7 @@ const FoodManagement = () => {
 
                                 <br/>
                             </div>
+                            </section>
                         </div>
                     </div>
                 </div></div>
