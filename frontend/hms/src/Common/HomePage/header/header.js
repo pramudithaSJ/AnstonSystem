@@ -11,7 +11,7 @@ return (
       <section className="header-top">
         <div className="headerLogo">
         <section className="header-top__logo">
-          <a href="/" className="header-logo">
+          <a href="/" >
         
           </a>
         </section>
