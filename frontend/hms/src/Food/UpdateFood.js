@@ -3,6 +3,8 @@ import {useHistory, useParams} from 'react-router-dom';
 import axios from "axios";
 import ProgressBar from "../comps/ProgressBar";
 import '../CSS/ProgressBar/ProgressBar.css'
+import AdminNav from '../Common/Adminside/adminNav';
+import "./Css/Foodlist.css"
 
 const UpdateFood = () => {
 
@@ -80,9 +82,7 @@ const UpdateFood = () => {
 
     return (
         <div className="addFood" style={{paddingBottom: '200px'}}>
-            <a className="btn btn-default foodPrices" href={"/foodManagement"} >
-                <i className="fa fa-home" style={{fontWeight: "bold"}}></i> Home
-            </a>
+               <AdminNav/>  
             <div >
                 {/*<div className="col-sm-2"></div>*/}
                 <div class=" col-sm-3 " style={{marginLeft: '550px'}}>
@@ -118,13 +118,16 @@ const UpdateFood = () => {
                                         <div><label>Name</label><input class="form-control" placeholder={food.Name} type="text" onChange={nameSetter}/></div>
                                         <div><label>Price(Rs)</label><input class="form-control" placeholder={food.Price} min="0" type="Number" onChange={priceSetter}/></div>
                                         <br/>
-                                        <button class="btn  btn-warning" type="submit" style={{fontWeight: "bold"}} onClick={onSubmit}>&nbsp;Update Food</button>
-                                        <button className="btn-del btn btn-danger " style={{fontWeight: "bold"}} type="submit" onClick={() => {
-                                            if (window.confirm("Are you sure you want to delete this food item?")) {
-                                                deleteFood(food._id)
+                                       
+                                        <button className="cancelBtn " style={{fontWeight: "bold"}} type="submit" onClick={() => {
+                                            if (window.confirm("Are you sure you want to cancel?")) {
+                                                // deleteFood(food._id)
+                                                history.push('/foodManagement');
                                             }
                                             ;
-                                        }}>Delete Food</button>
+                                        }}>Cancel </button>
+
+                                         <button class="UpdateBtn" type="submit" style={{fontWeight: "bold"}} onClick={onSubmit}>&nbsp;Update</button>
                                         <br />
                                         <br />
 
