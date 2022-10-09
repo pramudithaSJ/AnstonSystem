@@ -19,7 +19,7 @@ const Login = () => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        if (Email == "admin@gmail.com" && Password == "123") {
+        if (Email == "admin@gmail.com" && Password == "admin123") {
             history.push('/AdminPanelCustomers');
         } else {
             const newCustomer = {
