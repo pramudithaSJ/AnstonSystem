@@ -26,6 +26,8 @@
     margin-left: 937px;
 }
 .table1 {
+    margin-left: 3%;
+    margin-right: 10%;
     --bs-table-bg: transparent;
     --bs-table-accent-bg: transparent;
     --bs-table-striped-color: #212529;
@@ -56,4 +58,8 @@ th{
 td{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.table-responsive{
+    padding: 50px;
 }
