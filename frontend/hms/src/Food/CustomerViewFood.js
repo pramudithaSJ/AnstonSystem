@@ -2,8 +2,6 @@ import React, {useState, useEffect} from "react";
 import Search from "../Common/Search";
 import axios from "axios";
 import {useHistory} from "react-router-dom";
-import LogoutNav from "../Login/Greeting";
-import Greeting from "../Login/Greeting";
 import Header from "../Common/HomePage/header/header";
 import Footer from "../Common/HomePage/footer/footer";
 import "./Css/Cusview.css"
