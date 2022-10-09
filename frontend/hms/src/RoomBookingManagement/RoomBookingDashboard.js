@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams} from "react-router";
 import axios from "axios";
 import '../CSS/RoomBookingManagement/ManageRoomsDashboard.css';
-import AdminSideNav from "../Admin/AdminSideNav";
+import AdminNav from '../Common/AdminSide/AdminNav';
 import {Link} from "react-router-dom";
 
 
@@ -38,7 +38,7 @@ const RoomBookingDashboard = () => {
 
     return (
         <div className="row1">
-            <div className="col-2"> <AdminSideNav/></div>
+            <div className="col-2"> <AdminNav/></div>
             <div class="col-10">
                 <br />
                 <div class="">
