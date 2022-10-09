@@ -1,0 +1,46 @@
+/* .tableForm{
+    margin-top:20%;
+    /* background-color: red;  */
+    /* padding:100px; */
+/* } */
+/* .container{
+    top:0%;
+    padding-right:700px;
+} */
+/* .row{
+    /* background-color: rgb(125, 125, 125); */
+    /* margin-top:100px; */
+   
+/* } */
+ /* */ 
+ .editCustomerProfile{
+    margin-top: 140px;
+ }
+ .editCustomerUpdate{
+    margin-top:140px;
+    
+    width:500px;
+ }
+ .editSignup{
+    margin-top: 125px;
+ }
+ .btn-btn-danger{
+    background-color: #990000;
+    border-radius: 5px;
+    padding:6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color:white;
+ }
+ .btn-btn-warning{
+    background-color: #053930;
+    border-radius: 5px;
+    padding:6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color:white;
+ }
+ .eidtImage{
+    background-color: red;
+    margin-left:400px;
+ }

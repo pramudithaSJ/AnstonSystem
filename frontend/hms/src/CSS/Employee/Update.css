@@ -1,0 +1,55 @@
+.bodyyy{
+    /* background: url("../../Images/undraw_Add_user_re_5oib.png"); */
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.cardUpdate{
+    position: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: auto;
+    height: auto;
+    opacity: 0.95;
+
+}
+.containerUP{
+    width: 50%;
+    margin-right:25% ;
+    margin-left:25%;
+    margin-top: 20px;
+}
+.btn-del {
+    /*position: relative;*/
+    display: inline;
+    margin-left: 15%;
+    background-color:#053930;
+    border:#053930;
+  
+    }
+
+  
+.btnwar{
+    margin-left:15%;
+}
+.btn-btnwar-btn-warning {
+    background-color: #053930;
+    border-radius:10px;
+    color:white;
+    padding:5px;
+    padding-left:12px;
+    padding-right:12px;
+    margin-left: 160px;
+    /* margin: 0px,200px;  */
+    
+}
+.editUpdateTable{
+     /* background-color: #808080; */
+     margin-top:-80px; 
+}

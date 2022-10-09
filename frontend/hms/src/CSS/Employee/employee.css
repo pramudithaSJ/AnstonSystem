@@ -1,0 +1,44 @@
+.card-employee{
+    /*position: relative;*/
+    /*display: flex;*/
+    padding-bottom: 25px;
+    padding-top: 25px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 5px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    opacity: 0.98;
+}
+.body{
+    background: url("../../Images/gift.png");
+    background-size: auto;
+}
+label{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.card-employee-inner{
+    /*position: relative;*/
+    /*display: flex;*/
+    padding: 25px 15px;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 5px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+}
+.btn-btn-primary{
+    background-color:#053930;
+    border-radius: 10px;
+    color:#ffffff;
+    height:32px;
+    width:170px;
+    
+}
