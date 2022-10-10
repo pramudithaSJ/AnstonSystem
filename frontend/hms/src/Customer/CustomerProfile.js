@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
- import img from '../Images/Customerprofile.jpg';
+import img from '../Images/Customerprofile.jpg';
 import {useHistory} from "react-router-dom";
 import Header from "../Common/HomePage/header/header";
 import Footer from "../Common/HomePage/footer/footer";

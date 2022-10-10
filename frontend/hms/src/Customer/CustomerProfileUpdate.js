@@ -1,9 +1,9 @@
 import React,{useEffect, useState} from 'react';
-// import img from '../Images/update.jpg';
 import {useHistory} from "react-router-dom";
 import axios from "axios";
 import Header from '../Common/HomePage/header/header';
 import Footer from '../Common/HomePage/footer/footer';
+//import img from '../Images/Customerprofile.jpg';
 // import './customer.css';
 
 
@@ -116,7 +116,7 @@ const CustomerProfile = () => {
                                         { <button className="btn-btn-warning" type="submit" onClick={onSubmit}>&nbsp;Update</button> }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         {/* <button className="btn-btn-warning" type="submit" onClick={onSubmit}>&nbsp;Back to Profile</button> */}
                                         <a href={"/CustomerProfile"} className="btn-btn-warning" type="reset">&nbsp;Back to Profile</a>
-                                        <br />
+                                        <br />                      
                                         
                                     </div>
                                 </div>
@@ -127,10 +127,10 @@ const CustomerProfile = () => {
                         </div>
                     </div>
                 </div>
-                {/* { <div className="col-sm-6 image">
+                 {/* <div className="col-sm-6 image">
                     <img src={img} loading="auto" alt="center" height="500"
                          width="500"/>
-                </div> } */}
+            </div> */} 
                  <Footer/> 
             </div>
             
