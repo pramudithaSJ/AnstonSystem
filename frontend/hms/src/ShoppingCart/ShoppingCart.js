@@ -150,7 +150,7 @@ const ShoppingCart = () => {
                 </div>
                 <div className='buttons'>
                     <div className='cancel'>
-                    <a className='check' href={'/PayPayments'}>Cancel Order</a>
+                    <a className='check' href={'/customerViewFood'}>Cancel Order</a>
                     </div>
                     <div className='out'>
                     <a className='check' href={'/PayPayments'}>Order Now</a>
