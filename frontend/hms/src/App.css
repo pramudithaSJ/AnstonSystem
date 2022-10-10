@@ -130,7 +130,7 @@ input[type="file"] {
   --bs-table-hover-color: #212529;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   background: #dde3e3;
-  width: 95%;
+  width: 80%;
   margin-bottom: 1rem;
   color: #212529;
   margin-left: 35px;
@@ -177,7 +177,6 @@ input[type="file"] {
   color: #dddddd;
   margin-right: 140px;
   opacity: 85%;
-  float: right;
   font-weight: bold;
 }
 .cartOrder:hover{
@@ -197,7 +196,7 @@ input[type="file"] {
 .qtyAdd{
   display: inline-block;
   padding: 7px;
-  background: #1a2639;
+  background: #0f2917;
   color: #dddddd;
   font-weight: bold;
   opacity: 85%;
