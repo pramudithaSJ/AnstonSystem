@@ -61,7 +61,7 @@ const Login = () => {
                             <button className="btn-btn-primary" id="button" type="submit"  onClick={onSubmit} >Log in</button><br></br>
                             <a href={"/CustomerRegistration"} type="submit" id={"signupbutton"}><center><b><u>Sign Up</ u></b></center></a>
 
-                        </div>
+                        </div>    
                     </div>
                 </form>
             </div>
