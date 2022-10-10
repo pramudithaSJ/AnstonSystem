@@ -77,12 +77,11 @@ const ShoppingCart = () => {
                 <i className="fa fa-arrow-left" style={{fontWeight: "bold"}}> Back</i> 
             </a>
             </div>
-            <div >
-            <Greeting isLoggedIn={isLoggedIn}/>
+            <div className='topic1'>
+            <h2> My Cart</h2>
+           
             </div>
-            <div className='out'>
-                <h2> my cart</h2>
-            </div>
+          
             
             </section>
          

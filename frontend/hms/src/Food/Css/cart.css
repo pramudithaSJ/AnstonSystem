@@ -24,14 +24,19 @@ cart1{
     background-position: center;
 }
 .topic{
-    width: 100%;
+    
+    padding: 10px;
+    color: aliceblue;
+    width: auto;
     height: 80px;
     align-items: center;
     background-color: rgb(20, 58, 32);
     display: flex;
     flex: 1;
-    row-gap: 10px;
+    
 }
 .mycart{
-    flex: 0 1 100px;
+    
+    gap: 10px;
+    flex: 5 0 auto;
 }
