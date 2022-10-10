@@ -10,7 +10,7 @@
     --bs-table-hover-color: #212529;
     --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
     width: 300px;
-    margin-left: 70px;
+    margin-left: 60px;
     margin-bottom: 1rem;
     color: #212529;
     vertical-align: top;
@@ -39,9 +39,21 @@ td{
     padding-right:100px;
 }
 .editAddEmployeeButton{
-    margin-left: 110px;
-    
+    margin-left: 110px;  
 }
 .btn-btn-primary{
     padding:7px;
 }
+.btn-btn-success-btngena{
+    color:white;
+}
+.editBtn{
+    width:135px;
+    height: 30px;
+    margin-left:1130px;
+    padding-right:30px;
+    background-color: #053930;
+    border-radius: 5px;
+    padding:5px;
+}
+
