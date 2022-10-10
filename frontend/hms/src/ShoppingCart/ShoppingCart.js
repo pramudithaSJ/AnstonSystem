@@ -64,19 +64,37 @@ const ShoppingCart = () => {
 
     return (
         <div className="shoppingCart">
+            <div className='cartphoto'>
+                    
+            </div>
             <br/>
-            <Greeting isLoggedIn={isLoggedIn}/>
+            
             <br/>
-            <a className="foodPrices" href={"/customerViewFood"}>
-                <i className="fa fa-arrow-left" style={{fontWeight: "bold"}}> Back</i>
-            </a>
 
+            <section className='topic'>
+            <div className='mycart'>
+            <a className="foodPrices" href={"/customerViewFood"}>
+                <i className="fa fa-arrow-left" style={{fontWeight: "bold"}}> Back</i> 
+            </a>
+            </div>
+            <div >
+            <Greeting isLoggedIn={isLoggedIn}/>
+            </div>
+            <div className='out'>
+                <h2> my cart</h2>
+            </div>
+            
+            </section>
+         
+           
 
             <br/><br/><br/>
-            <div className="row1">
-                <div className="col-12">
-                    <div className="">
-                        <table className="cartTable  ">
+            <div className="row">
+                
+                <div className="">
+                    <div className="cart1">
+
+                        <table className="cartTable1">
                             <thead className="carthead">
                             <tr>
                                 <th className="text-center ">Name</th>
@@ -130,7 +148,7 @@ const ShoppingCart = () => {
                         </table>
                         <div className="subTot">Sub Total = Rs. {subTotal}.00</div>
                         <br/> <br/> <br/>
-                        <a className="cartOrder" href={'/PayPayments'}>CHECKOUT
+                        <a className="checkout" href={'/PayPayments'}>CHECKOUT
                         </a>
 
                         <br/>

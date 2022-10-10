@@ -1,3 +1,37 @@
 .carthead{
     background-color: aqua;
+    color: aliceblue;
+}
+.carttable1{
+    background-color: aquamarine;
+}
+cart1{
+    width: 200px;
+    height: 300px;
+    background-color: aquamarine;
+}
+.checkout{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    padding: 10px;
+}
+.cartphoto{
+    width: 100%;
+    height: 200px;
+    background-image: url(./cart2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.topic{
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(20, 58, 32);
+    display: flex;
+    flex: 1;
+    row-gap: 10px;
+}
+.mycart{
+    flex: 0 1 100px;
 }
