@@ -145,7 +145,7 @@ const PayPayments = () => {
                                                 <label>Totle price</label><br/><input className="form-control" type="number" value={subTotal}/>
                                             </div>
                                                 <div className="col-sm-2 pad">
-                                                   <center><button type="button " className="btn btn-primary btn-pay" onClick={onSubmit}>Pay</button></center>
+                                                   <center><button type="button " className="btn btn-primary btn-pay"  onClick={onSubmit}>Pay</button></center>
                                                 </div>
                                         </div>
                                 </div>
