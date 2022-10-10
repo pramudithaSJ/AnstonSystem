@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {useHistory} from "react-router-dom";
 import axios from "axios";
 import Greeting from "../Login/Greeting";
+import "../Food/Css/cart.css"
 
 const ShoppingCart = () => {
 
@@ -76,7 +77,7 @@ const ShoppingCart = () => {
                 <div className="col-12">
                     <div className="">
                         <table className="cartTable  ">
-                            <thead className="">
+                            <thead className="carthead">
                             <tr>
                                 <th className="text-center ">Name</th>
                                 <th className="text-center">Unit Price</th>
