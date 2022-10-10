@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {useHistory} from "react-router-dom";
 import axios from "axios";
 import Greeting from "../Login/Greeting";
+import "../Food/Css/cart.css"
 
 const ShoppingCart = () => {
 
@@ -63,20 +64,37 @@ const ShoppingCart = () => {
 
     return (
         <div className="shoppingCart">
+            <div className='cartphoto'>
+                    
+            </div>
             <br/>
-            <Greeting isLoggedIn={isLoggedIn}/>
+            
             <br/>
-            <a className="foodPrices" href={"/customerViewFood"}>
-                <i className="fa fa-arrow-left" style={{fontWeight: "bold"}}> Back</i>
-            </a>
 
+            <section className='topic'>
+            <div className='mycart'>
+            <a className="foodPrices" href={"/customerViewFood"}>
+                <i className="fa fa-arrow-left" style={{fontWeight: "bold"}}> Back</i> 
+            </a>
+            </div>
+            <div className='topic1'>
+            <h2> My Cart</h2>
+           
+            </div>
+          
+            
+            </section>
+         
+           
 
             <br/><br/><br/>
-            <div className="row1">
-                <div className="col-12">
-                    <div className="">
-                        <table className="cartTable  ">
-                            <thead className="">
+            <div className="row">
+                
+                <div className="">
+                    <div className="cart1">
+
+                        <table className="cartTable1">
+                            <thead className="carthead">
                             <tr>
                                 <th className="text-center ">Name</th>
                                 <th className="text-center">Unit Price</th>
@@ -129,7 +147,7 @@ const ShoppingCart = () => {
                         </table>
                         <div className="subTot">Sub Total = Rs. {subTotal}.00</div>
                         <br/> <br/> <br/>
-                        <a className="cartOrder" href={'/PayPayments'}>CHECKOUT
+                        <a className="checkout" href={'/PayPayments'}>CHECKOUT
                         </a>
 
                         <br/>

@@ -60,7 +60,7 @@ const ManageRoomsDashboard = () => {
 
                     {/*<div class="card-header">*/}
 
-                            <a href="/AddRooms" className="btn btn-primary" role="button">
+                            <a href="/AddRooms" className="Add-new" role="button">
                                 <i className="fa fa-plus"></i>&nbsp;Add New Room
                             </a>
                         <a href={"/RoomManagementReport"} className="btn btn-success btngenarate" >Generate Report</a>
@@ -70,6 +70,9 @@ const ManageRoomsDashboard = () => {
                 <div class="row1">
                     <div class="col-12">
                         <div class="table-responsive">
+                           
+                           
+                         <div className="tb1">
                             <table class="table1  table-hover table-bordered table-striped  tablesorter" id="ipi-table">
                                 <thead class="thead-dark">
                                 <tr>
@@ -115,6 +118,8 @@ const ManageRoomsDashboard = () => {
                                 })}
                                 </tbody>
                             </table>
+                            </div>
+                            
                             <br/>
                         </div>
                     </div>

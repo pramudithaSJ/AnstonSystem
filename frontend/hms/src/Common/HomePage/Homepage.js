@@ -21,7 +21,7 @@ return(
             <section className="grid_view">
                     <section className="card">
                         <section className="mainimage"></section>
-                        <button className="button"> Rooms</button>
+                        <a href="/ViewAllRooms"><button className="button"> Rooms</button></a>
                     </section>
                     <section className="card">
                         <section className="mainimage1"></section>
