@@ -39,7 +39,7 @@ td{
     padding-right:100px;
 }
 .editAddEmployeeButton{
-    margin-left: 110px;  
+    margin-left: 135px;  
 }
 .btn-btn-primary{
     padding:7px;
@@ -55,5 +55,11 @@ td{
     background-color: #053930;
     border-radius: 5px;
     padding:5px;
+}
+.row1{
+    margin-left: -80px;
+}
+.row2{
+    margin-left: 320px;
 }
 

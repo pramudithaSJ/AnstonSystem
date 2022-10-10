@@ -43,7 +43,7 @@ const PaymentView = () => {
 
 
     return (
-        <div className="row1">
+        <div className="row2">
             <div className="col-2"> <AdminNav/></div>
             <div className="col-10"> <br/>
                 {/*<Search/>*/}
