@@ -74,7 +74,7 @@ const CustomerViewFood = () => {
             <Header/>
             
     
-            <div className="row1" >
+            <div className="row1" id="s1" >
                 <div className="col-3">
 
                 </div>
