@@ -37,22 +37,23 @@ const RoomBookingDashboard = () => {
 
 
     return (
-        <div className="row1">
+        <div className="row31">
             <div className="col-2"> <AdminNav/></div>
             <div class="col-10">
                 <br />
                 <div class="">
                     <div className="searchBar">
                         <input type="search" className="form-control" placeholder="Search..." onChange={event =>{setSearchWord(event.target.value)}}/>
+                    
                     </div>
+                    
                 </div>
-
+                <br/>
                 <div class="card-header">
-
-                    <a href={"/RoomBookingManagementReport"} className="btn btn-success btngenarate" >Generate Report</a>
+                        <a href={"/RoomBookingManagementReport"} className="btn btn-success btngenarate" >Generate Report</a>
                 </div>
 
-                <div class="row1">
+                <div class="row001">
                     <div class="col-12">
                         <div class="table-responsive">
                             <table class="table1  table-hover table-bordered table-striped  tablesorter" id="ipi-table">

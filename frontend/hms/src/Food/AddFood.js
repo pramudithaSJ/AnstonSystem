@@ -132,6 +132,14 @@ const AddFood = () => {
                                         placeholder='Rs.' 
                                         onChange={priceSetter} />
                                         </div>
+                                        <div><label>Category</label>
+                                         <select class="form-select" >
+                                            <option>Kids Meal</option>
+                                            <option> Adult Meal</option>
+                                            <option> Dessert</option>
+
+                                         </select>
+                                        </div>
                                         <br/>
                                         <button class="btn btn-primary" type="submit" onClick={checkEmpty}>&nbsp;Add Food</button>
                                         <br />

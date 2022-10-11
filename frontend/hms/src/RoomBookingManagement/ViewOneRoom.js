@@ -123,7 +123,7 @@ const ViewOneRoom = ({match}) => {
 
                                     <div className="btnBookRoom">
                                             <br/>
-                                        <button className={"btn btn-primary"} style={{marginLeft:"300px"}} onClick={()=>onSubmit()} >
+                                        <button className={"btnRoom"} style={{marginLeft:"300px"}} onClick={()=>onSubmit()} >
                                             Book Rooms&nbsp;
                                         </button>
                                             {/*<a href={onSubmit} style={{marginLeft:"300px"}}>*/}

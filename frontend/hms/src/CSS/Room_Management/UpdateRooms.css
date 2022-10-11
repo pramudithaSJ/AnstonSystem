@@ -10,9 +10,22 @@
 }
 
 #updaterooms{
-    margin-left: 79px;
+    margin-left: 110px;
 }
 
 #upd:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.updatebtn{
+    background-color: #053930;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+.updatebtn:hover{
+    background-color: darkgreen;
+    color: aliceblue;
 }

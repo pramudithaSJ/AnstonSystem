@@ -3,3 +3,10 @@
     background: #61dafb;
     margin-top: 20px;
 }
+.btnAddRoom{
+    width:60px;
+    height:30px;
+    border-radius: 5px;
+    background-color: #053930;
+    color: white;
+}

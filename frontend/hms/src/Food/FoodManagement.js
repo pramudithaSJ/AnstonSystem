@@ -40,6 +40,7 @@ const FoodManagement = () => {
     return (
         <div className="row1">
             <div className="col-2"> <AdminNav/></div>
+            
             <div className="col-10"> <br/>
                 <div className="col-xs-6">
                     <div className="searchBar">
@@ -65,7 +66,10 @@ const FoodManagement = () => {
                     <br /><br />
                     
                     <div className="row1">
-                        <div className="col-12">
+                        <div className='col-1'>
+
+                        </div>
+                        <div className="col-11">
                             <section className='datatable'>
                             <div   className="table-responsive">
                                 <table className="table1  table-hover table-bordered table-striped  tablesorter"

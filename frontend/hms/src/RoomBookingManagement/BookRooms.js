@@ -107,7 +107,7 @@ const BookRooms = () => {
 
 
                                         <br/>
-                                        <button className="btn btn-primary" type="submit" id="addrooms" onClick={onSubmit} >&nbsp;Book</button>&nbsp;&nbsp;
+                                        <button className="btnRoom" type="submit" id="addrooms" onClick={onSubmit} >&nbsp;Book</button>&nbsp;&nbsp;
                                         <br/>
                                         <br/>
 
