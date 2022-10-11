@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react';
-import img from '../Images/undraw_Forms_re_pkrt.png';
+import img from '../Images/updateroomspic.jpeg';
 import '../CSS/Room_Management/UpdateRooms.css';
 import {useHistory} from "react-router-dom";
 import axios from "axios";
@@ -157,8 +157,10 @@ const UpdateRooms = ({match}) => {
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-6 image">
-                    <img src={img} loading="auto" alt="center" height="700" width="600"/>
+                <div className="col-sm-6 imag">
+
+                <img src={img} loading="auto" style={{marginLeft: "60px", marginTop: "95px" }} height="776px" width="600px"/>
+                    
                 </div>
 
 
