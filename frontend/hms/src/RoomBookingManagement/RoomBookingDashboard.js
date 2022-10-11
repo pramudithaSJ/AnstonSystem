@@ -52,7 +52,7 @@ const RoomBookingDashboard = () => {
                     <a href={"/RoomBookingManagementReport"} className="btn btn-success btngenarate" >Generate Report</a>
                 </div>
 
-                <div class="row1">
+                <div class="row001">
                     <div class="col-12">
                         <div class="table-responsive">
                             <table class="table1  table-hover table-bordered table-striped  tablesorter" id="ipi-table">
