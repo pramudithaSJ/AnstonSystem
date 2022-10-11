@@ -91,3 +91,13 @@ td{
 margin-left:20px;
 margin-right:10px;
 }
+
+.btngenerate{
+    background-color: #053930;
+    border-radius: 5px;
+    color:white;   
+    padding:7px;
+    float:right;
+    margin-right:-60px; 
+   
+}
