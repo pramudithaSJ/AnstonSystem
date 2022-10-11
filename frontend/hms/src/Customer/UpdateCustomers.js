@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react';
-import img from '../Images/UpdateCustomers.png';
+// import img from '../Images/UpdateCustomers.png';
 import {useHistory, useParams} from "react-router-dom";
 import axios from "axios";
 import Header from '../Common/HomePage/header/header';
@@ -78,7 +78,7 @@ const CustomerProfile = ({match}) => {
                     <i className="fa fa-arrow-left" style={{fontWeight: "bold"}}> </i> Back
                 </a>
             </div>
-            <br></br>
+            <br></br><br></br><br></br>
             <h3 className="text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -123,11 +123,11 @@ const CustomerProfile = ({match}) => {
                     
                    </div> 
                 </div>
-                <div className="col-sm-6 image">
+                {/* <div className="col-sm-6 image">
                     <img src={img} loading="auto" alt="center" height="500"
                          width="500"/>
                          
-                </div>
+                </div> */}
                 
             </div>
             <Footer/>                       
