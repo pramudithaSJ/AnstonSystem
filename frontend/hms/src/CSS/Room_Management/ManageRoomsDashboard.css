@@ -26,9 +26,12 @@
 .btngenarate{
     margin-left: 937px;
     background-color: #053930;
-    margin-top: -10px;
+    margin-top: -50px;
 
 }
+
+
+
 .tb1{
    
     width: 500px;
@@ -81,11 +84,16 @@ td{
     padding: 10px;
     color: white;
     
+    
 }
 
 .btnAddRoom{
     margin-top: 20px;
 }
 
+.Add-new:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+}
 
 
