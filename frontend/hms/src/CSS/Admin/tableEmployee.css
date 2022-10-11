@@ -71,6 +71,7 @@ td{
     border-radius: 5px;
     color:white;
     width:136px;
+    margin-left:75px;
 
 }
 
@@ -87,6 +88,6 @@ td{
 
 .tablerow{
 
-margin-left:-50px;
+margin-left:20px;
 margin-right:10px;
 }
