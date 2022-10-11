@@ -37,7 +37,7 @@
     width: 500px;
     margin-left: 5%;
     margin-right: 10% ;
-    width: 85%;
+    width: 86.2%;
 }
 .table1 {
     
@@ -83,13 +83,15 @@ td{
     background-color:  #053930;
     padding: 10px;
     color: white;
-    
+    border-radius: 6px;
     
     
 }
 
 .btnAddRoom{
-    margin-top: 20px;
+    margin-top: 30px;
+    border-radius: 6px;
+    
    
 }
 
