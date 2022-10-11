@@ -97,8 +97,8 @@ const CustomerRegistration = () => {
                             
                         { <div className="col-sm-6 image">
                         <br></br><br></br><br></br><br></br><br></br><br></br>
-                            <img src={img} loading="auto" alt="center" height="570"
-                                                                      width="500"/>
+                            <img src={img} loading="auto" alt="center" height="600"
+                                                                      width="600"/>
                         </div>}
                 </div>
             </div>
