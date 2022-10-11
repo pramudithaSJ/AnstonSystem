@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import '../CSS/RoomBookingManagement/BookRooms.css';
-import img from "../Images/undraw_My_documents_re_13dc.png";
+import img from "../Images/bookroomspic.jpg";
 import {useHistory, useParams, useLocation} from 'react-router-dom';
 import axios from "axios";
 import ProgressBar from "../comps/ProgressBar.js";
@@ -118,7 +118,7 @@ const BookRooms = () => {
                     </div>
                 </div>
                 <div className="col-sm-6 image">
-                    <img src={img} loading="auto" alt="center" height="500" width="500"/>
+                <img src={img} loading="auto" style={{marginLeft: "135px", marginTop: "95px" }} height="470px" width="600px"/>
                 </div>
             </div>
         </div>
