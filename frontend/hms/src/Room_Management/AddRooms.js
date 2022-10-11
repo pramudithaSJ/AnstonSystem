@@ -137,7 +137,7 @@ const AddRooms = () => {
                     </div>
                 </div>
                 <div className="col-sm-6 image">
-                    <img src={img} loading="auto" style={{marginLeft: "140px", marginTop: "95px" }} height="776px" width="550px"/>
+                    <img src={img} loading="auto" style={{marginLeft: "140px", marginTop: "95px" }} height="776px" width="540px"/>
                 </div>
             </div>
         </div>
