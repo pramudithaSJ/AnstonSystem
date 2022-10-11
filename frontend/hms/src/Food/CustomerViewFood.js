@@ -5,6 +5,7 @@ import {useHistory} from "react-router-dom";
 import Header from "../Common/HomePage/header/header";
 import Footer from "../Common/HomePage/footer/footer";
 import "./Css/Cusview.css"
+import AdminNav from "../Common/AdminSide/AdminNav";
 
 
 const CustomerViewFood = () => {
@@ -67,23 +68,37 @@ const CustomerViewFood = () => {
 
     return (
         <div>
-            <br />
-            <Header/>
-            <br />
+            
             <section className="searchback">
+   
+            <Header/>
+            
+    
+            <div className="row1" >
+                <div className="col-3">
+
+                </div>
+                <div className="col-6">
+                <div className="sea">
+                    <input type="search" className="form-control" placeholder="Search..." onChange={event =>{setSearchWord(event.target.value)}}/>
+                </div>
+                </div>
+                <div className="col-3">
+                <a className="foodPrices " href={"/shoppingCart"} style={{float: "right", marginRight:"120px"}}>
+                Cart <i className="fa fa-shopping-cart foodPrices"></i>
+            </a>
+                </div>
+
+            </div>
 
             </section>
             <section className="sbar">
             <div className="col-xs-6">
-                <div className="searchBar">
-                    <input type="search" className="form-control" placeholder="Search..." onChange={event =>{setSearchWord(event.target.value)}}/>
-                </div>
+                
             </div>
             </section>
            
-            <a className="foodPrices " href={"/shoppingCart"} style={{float: "right", marginRight:"120px"}}>
-                Cart <i className="fa fa-shopping-cart foodPrices"></i>
-            </a>
+            
             <br/><br />
             {food?.filter((val)=>{
                 if(SearchWord ==""){
