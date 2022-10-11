@@ -97,7 +97,7 @@ const CustomerProfile = ({match}) => {
                                 
                                 
                                     <div>
-                                        
+                                        <br/>
                                         <div><label>Name</label><input class="form-control" type="text" placeholder={Customer.Name} onChange={NameSetter} placeholder={Customer.Name}/>
                                         </div>
                                         <div><label>Address</label><input class="form-control"
@@ -112,7 +112,7 @@ const CustomerProfile = ({match}) => {
                                                                            type="text" placeholder={Customer.Password} onChange={PasswordSetter}/></div>
                                         <br/>
                                          &nbsp;
-                                        <button className="btn btn-warning" type="submit" onClick={onSubmit}>&nbsp;Update</button>
+                                        <button className="btn-btn-warning" type="submit" onClick={onSubmit}>&nbsp;Update</button>
                                         <br />
                                         <br />
                                       
