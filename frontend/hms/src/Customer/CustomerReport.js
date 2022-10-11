@@ -106,17 +106,15 @@ const CustomerReport = () => {
                                     </tbody>
                                 </table>
                                 <br/>
-                                <Link className="btngenerate" role="button" id={"generate"}onClick={genaratePDF}>
-        Generate Report&nbsp;&nbsp;
-        <em className="fa fa-file-pdf-o" id="icon"></em>
-    </Link>
                             </div>
-                            
                         </div>
                     </div></div>
             </div>
         </div>
-    
+    <Link className="btngenerate" role="button" id={"generate"}onClick={genaratePDF}>
+        Generate Report&nbsp;&nbsp;
+        <em className="fa fa-file-pdf-o" id="icon"></em>
+    </Link>
 </div>
     )
 }
