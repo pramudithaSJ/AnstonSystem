@@ -4,7 +4,7 @@ import axios from "axios";
 import Header from '../Common/HomePage/header/header';
 import Footer from '../Common/HomePage/footer/footer';
 import img from '../Images/Customerprofile.jpg';
-// import './customer.css';
+import './customer.css';
 
 
 const CustomerProfile = () => {
@@ -116,24 +116,29 @@ const CustomerProfile = () => {
                                         { <button className="btn-btn-warning" type="submit" onClick={onSubmit}>&nbsp;Update</button> }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         {/* <button className="btn-btn-warning" type="submit" onClick={onSubmit}>&nbsp;Back to Profile</button> */}
                                         <a href={"/CustomerProfile"} className="btn-btn-warning" type="reset">&nbsp;Back to Profile</a>
-                                        <br />                      
+                                        <br />     
+                                                   
                                         
                                     </div>
+                                    
                                 </div>
-                             
-                            
+                                
+                                
                             </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                { <div className="col-sm-6-image">
+                            { <div className="emr">
                 <br></br>
                    
                         <img src={img} loading="auto" alt="center" height="520"
                             width="500"/>
                     
-                </div> }
+                </div> }     
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+              
                  <Footer/> 
             </div>
             
