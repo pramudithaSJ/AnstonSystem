@@ -97,11 +97,11 @@ const CustomerRegistration = () => {
                             
                         { <div className="col-sm-6 image">
                         <br></br><br></br><br></br><br></br><br></br><br></br>
-                            <img src={img} loading="auto" alt="center" height="600"
-                                                                      width="600"/>
+                            <img src={img} loading="auto" alt="center" height="610"  
+                                                                      width="800"/>
                         </div>}
                 </div>
             </div>
     )
-}
+}   
 export default CustomerRegistration;
