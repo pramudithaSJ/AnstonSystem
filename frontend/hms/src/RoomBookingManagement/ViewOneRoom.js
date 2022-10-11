@@ -6,7 +6,7 @@ import {Link, useHistory} from "react-router-dom";
 import Greeting from "../Login/Greeting";
 
 const ViewOneRoom = ({match}) => {
-    console.log(match.params.id);
+    console.log(match.params.id); 
     const id = match.params.id;
     console.log(id)
     let his = useHistory();
@@ -121,10 +121,10 @@ const ViewOneRoom = ({match}) => {
                                     </div>
                                 </div>
 
-                                    <div className="">
+                                    <div className="btnBookRoom">
                                             <br/>
                                         <button className={"btn btn-primary"} style={{marginLeft:"300px"}} onClick={()=>onSubmit()} >
-                                            Book Rooms
+                                            Book Rooms&nbsp;
                                         </button>
                                             {/*<a href={onSubmit} style={{marginLeft:"300px"}}>*/}
                                             {/*    <h3 className='btn btn-primary'>Book Rooms</h3>*/}
