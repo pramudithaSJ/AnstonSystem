@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react';
-import img from '../Images/febrian-zakaria-gwV9eklemSg-unsplash.jpg';
+import img from '../Images/Room.jpeg';
 import {useHistory, useParams} from "react-router-dom";
 import axios from "axios";
 import Header from '../Common/HomePage/header/header';
@@ -127,7 +127,7 @@ const CustomerProfile = ({match}) => {
                 { <div className="col-sm-6 image">
                     <br/>
                     <img src={img} loading="auto" alt="center" height="500" 
-                         width="500"/>
+                         width="600"/>
                          
                 </div> }
                 
