@@ -56,7 +56,7 @@ const AdminPanelCustomers = () => {
                     </a>
                     <a href={"/CustomerReport"} className="btn btn-success btngena" type="submit">Generate Report</a>
                     <br /><br />
-                    <div className="row1">
+                    <div className="row3">
                         <div className="col-12">
                             <div className="table-responsive">
                                 <table className="table1  table-hover table-bordered table-striped  tablesorter"
