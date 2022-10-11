@@ -98,7 +98,7 @@ const CustomerProfile = ({match}) => {
                                 
                                     <div>
                                         <br/>
-                                        <div><label>Name</label><input class="form-control" type="text" placeholder={Customer.Name} onChange={NameSetter} placeholder={Customer.Name}/>
+                                        <div><label>Name</label><input class="form-control" type="text" placeholder={Customer.Name} onChange={NameSetter}/>
                                         </div>
                                         <div><label>Address</label><input class="form-control"
                                                                           type="text" placeholder={Customer.Address} onChange={AddressSetter}/></div>
@@ -129,7 +129,7 @@ const CustomerProfile = ({match}) => {
                     <img src={img} loading="auto" alt="center" height="500" 
                          width="600"/>
                          
-                </div> }
+                </div> }    
                 
             </div>
             <Footer/>                       
