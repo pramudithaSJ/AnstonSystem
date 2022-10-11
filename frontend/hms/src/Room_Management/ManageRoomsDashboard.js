@@ -59,10 +59,11 @@ const ManageRoomsDashboard = () => {
                 {/*</div>*/}
 
                     {/*<div class="card-header">*/}
-                        <div className="btnAddRoom"></div>
+                        <div className="btnAddRoom">
                             <a href="/AddRooms" className="Add-new" role="button">
                                 <i className="fa fa-plus"></i>&nbsp;Add New Room
                             </a>
+                            </div>
                         <a href={"/RoomManagementReport"} className="btn btn-success btngenarate" >Generate Report</a>
 
                     <br /><br />
