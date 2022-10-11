@@ -88,12 +88,11 @@ const ShoppingCart = () => {
            
 
             <br/><br/><br/>
-            <div className="row">
-                
-                <div className="">
-                    <div className="cart1">
 
-                        <table className="cartTable1">
+
+            <section className='carttable'>
+                <div className='viewcart'>
+                <table className="tb">
                             <thead className="carthead">
                             <tr>
                                 <th className="text-center ">Name</th>
@@ -145,11 +144,31 @@ const ShoppingCart = () => {
 
                             </tbody>
                         </table>
-                        <div className="subTot">Sub Total = Rs. {subTotal}.00</div>
-                        <br/> <br/> <br/>
-                        <a className="checkout" href={'/PayPayments'}>CHECKOUT
-                        </a>
+                        <div>
+                        <div className="total">Sub Total = Rs. {subTotal}.00</div>
+                        </div>
+                </div>
+                <div className='buttons'>
+                    <div className='cancel'>
+                    <a className='check' href={'/customerViewFood'}>Cancel Order</a>
+                    </div>
+                    <div className='out'>
+                    <a className='check' href={'/PayPayments'}>Order Now</a>
+                    </div>
 
+                </div>
+
+            </section>
+            <div className="row">
+                
+                <div className="">
+                    <div className="cart1">
+
+                       
+                       
+                        <br/> <br/> <br/>
+                        
+                     
                         <br/>
                     </div>
                 </div>

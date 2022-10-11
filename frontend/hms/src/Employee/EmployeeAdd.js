@@ -80,18 +80,18 @@ const EmployeeAdd = () => {
                                 <h2 class="text-center">Add Employee</h2>
                                 <br />
                                 <div className="container   ">
-                                    <div><label>Full Name</label><input class="form-control" type="text" onChange={NameSetter}/>
+                                    <div><label>Full Name</label><input class="form-control" type="text" required onChange={NameSetter}/>
                                     </div>
                                     <div class="form-group">
-                                        <div><label>Address</label><br/><textarea class="form-control" id="Address" name="Address" width="100% "onChange={AddressSetter}/>
+                                        <div><label>Address</label><br/><textarea class="form-control" id="Address" name="Address" required width="100% "onChange={AddressSetter}/>
                                         </div>
-                                        <div><label>Phone Number</label><input class="form-control"
-                                                                                    type="number" min='0' onChange={PhoneNumberSetter}/></div>
-                                        <div><label>NIC Number</label><input class="form-control"
+                                        <div><label>Phone Number</label><input class="form-control" pattern="[0-9]"
+                                                                                    type="number" min='0' required onChange={PhoneNumberSetter}/></div>
+                                        <div><label>NIC Number</label><input class="form-control" required
                                                                                           type="text"onChange={NICNumberSetter}/></div>
-                                        <div><label>Job Title</label><input class="form-control"
+                                        <div><label>Job Title</label><input class="form-control"  pattern="[a-z]"
                                                                                          type="text"onChange={JobtitleSetter}/></div>
-                                        <div><label>Salary</label><input className="form-control"
+                                        <div><label>Salary</label><input className="form-control" required
                                                                             type="number" min='0' onChange={SalarySetter}/></div>
                                         <br/><center>
                                         <button class="btn-btn-primary " type="submit" onClick={onSubmit}>Add Employee</button></center>

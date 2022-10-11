@@ -1,4 +1,5 @@
 import React,{useEffect, useState} from 'react';
+import img from '../Images/febrian-zakaria-gwV9eklemSg-unsplash.jpg';
 import '../CSS/payment/payment.css';
 import axios from "axios";
 import {useHistory} from "react-router-dom";
@@ -115,6 +116,7 @@ const PayPayments = () => {
 
     return (
         <div className={'background-image'}>
+          <div className="row11">
             <div className="row1">
                 <div className="col-sm-2"></div>
                 <div class=" col-sm-4">
@@ -125,7 +127,7 @@ const PayPayments = () => {
                                 <br />
                                 <h2 class="text-center">Payment</h2>
                                 <br />
-                                <div className="container   ">
+                                <div className="container">
                                     <div><label>Name On Credit Card</label><input class="form-control" type="text" onChange={NameSetter}/>
                                     </div>
                                         <div><label>Phone Number</label><br/><input class="form-control" type="number"  min='0' onChange={PhoneNumberSetter}/></div>
@@ -153,9 +155,15 @@ const PayPayments = () => {
                         </div>
                     </div>
                 </div>
+                    { <div className="imgPayment">
+                        <img src={img} loading="auto" alt="center" height="500"
+                            width="600"/>
+                    </div> }
                 <div className="col-sm-5 image">
                 </div>
+
             </div>
+          </div> 
         </div>
     )
 }
