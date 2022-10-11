@@ -94,7 +94,7 @@ const CustomerProfile = () => {
                 <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
                    
                         <img src={img} loading="auto" alt="center" height="520"
-                            width="700"/>
+                            width="500"/>
                     
                 </div> }
                 

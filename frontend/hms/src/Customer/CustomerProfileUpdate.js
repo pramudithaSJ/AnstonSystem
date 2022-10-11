@@ -129,7 +129,7 @@ const CustomerProfile = () => {
                 <br></br>
                    
                         <img src={img} loading="auto" alt="center" height="520"
-                            width="500"/>
+                            width="400"/>
                     
                 </div> }     
                             
