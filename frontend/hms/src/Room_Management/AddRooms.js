@@ -126,7 +126,7 @@ const AddRooms = () => {
                                         <div><label>Facilities</label><textarea id="w3review" className="form-control" rows="4" cols="50" onChange={facilitiesSetter} /></div>
                                         <div><label>Description</label><textarea id="w3review" className="form-control" rows="4" cols="50" onChange={descriptionSetter} /></div>
                                         <br/>
-                                        <button className="btn btn-primary" type="submit" id="addrooms" onClick={onSubmit} style={{width:"113px"}}>&nbsp;Add Rooms</button>&nbsp;&nbsp;
+                                        <button className="btnAddRoom" type="submit" id="addrooms" onClick={onSubmit} style={{width:"113px"}}>&nbsp;Add Rooms</button>&nbsp;&nbsp;
                                         <br/>
                                         <br/>
 

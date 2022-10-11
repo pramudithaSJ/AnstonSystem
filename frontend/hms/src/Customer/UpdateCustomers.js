@@ -127,7 +127,7 @@ const CustomerProfile = ({match}) => {
                 { <div className="col-sm-6 image">
                     <br/>
                     <img src={img} loading="auto" alt="center" height="500" 
-                         width="600"/>
+                         width="601"/>
                          
                 </div> }    
                 

@@ -75,11 +75,11 @@ const CustomerRegistration = () => {
                                                     </div>
                                                     <div><label>Enter Phone Number</label><input className="form-control"
                                                          type="Number" onChange={PhoneNumberSetter} /></div>
-                                                    <div><label>Enter NIC Number</label><input className="form-control"
+                                                    <div><label>Enter NIC Number</label><input className="form-control" 
                                                                                                       type="text" onChange={NICNumberSetter} /></div>
-                                                    <div><label>Enter Email</label><input className="form-control"
+                                                    <div><label>Enter Email</label><input className="form-control" 
                                                                                                      type="text" onChange={EmailSetter} /></div>
-                                                    <div><label>Enter Password</label><input className="form-control"
+                                                    <div><label>Enter Password</label><input className="form-control"  
                                                                                           type="text" onChange={PasswordSetter} /></div>
                                                     <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                     <button className="btn-btn-primary" type="submit" onClick={onSubmit}>&nbsp;Register&nbsp;</button>
@@ -97,8 +97,8 @@ const CustomerRegistration = () => {
                             
                         { <div className="col-sm-6 image">
                         <br></br><br></br><br></br><br></br><br></br><br></br>
-                            <img src={img} loading="auto" alt="center" height="610"  
-                                                                      width="800"/>
+                            <img src={img} loading="auto" alt="center" height="620"  
+                                                                      width="600"/>
                         </div>}
                 </div>
             </div>
