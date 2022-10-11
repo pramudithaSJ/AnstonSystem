@@ -59,7 +59,7 @@ const ManageRoomsDashboard = () => {
                 {/*</div>*/}
 
                     {/*<div class="card-header">*/}
-
+                        <div className="btnAddRoom"></div>
                             <a href="/AddRooms" className="Add-new" role="button">
                                 <i className="fa fa-plus"></i>&nbsp;Add New Room
                             </a>
@@ -67,11 +67,11 @@ const ManageRoomsDashboard = () => {
 
                     <br /><br />
 
-                <div class="row1">
+                <div class="row01">
                     <div class="col-12">
                         <div class="table-responsive">
                            
-                           
+                         
                          <div className="tb1">
                             <table class="table1  table-hover table-bordered table-striped  tablesorter" id="ipi-table">
                                 <thead class="thead-dark">
