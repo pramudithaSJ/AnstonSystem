@@ -44,11 +44,9 @@ td{
 .btn-btn-primary{
     padding:7px;
 }
-.btn-btn-success-btngena{
-    color:white;
-}
+
 .editBtn{
-    width:135px;
+    width:136px;
     height: 30px;
     margin-left:1130px;
     padding-right:30px;
@@ -57,3 +55,28 @@ td{
     padding:5px;
 }
 
+.customerhomebtn{
+    padding:7px;
+    background-color: #053930;
+    border-radius: 5px;
+    color:white;
+    width:136px;
+
+}
+
+.btn-btn-success-btngena{
+    padding:7px;
+    background-color: #053930;
+    border-radius: 5px;
+    color:white;
+    width:136px;
+    float: right;
+    margin-left: 100px;
+    margin-right:10px;
+}
+
+.tablerow{
+
+margin-left:-50px;
+margin-right:10px;
+}

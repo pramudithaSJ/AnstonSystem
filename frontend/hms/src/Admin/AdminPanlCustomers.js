@@ -51,12 +51,12 @@ const AdminPanelCustomers = () => {
                     </div>
 
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="/" className="btn btn-primary" role="button" >
+                    <a href="/" className="customerhomebtn" role="button" >
                          Customer Home
                     </a>
-                    <a href={"/CustomerReport"} className="btn btn-success btngena" type="submit">Generate Report</a>
+                    <a href={"/CustomerReport"} className="btn-btn-success-btngena" type="submit">Generate Report</a>
                     <br /><br />
-                    <div className="row1">
+                    <div className="tablerow">
                         <div className="col-12">
                             <div className="table-responsive">
                                 <table className="table1  table-hover table-bordered table-striped  tablesorter"
