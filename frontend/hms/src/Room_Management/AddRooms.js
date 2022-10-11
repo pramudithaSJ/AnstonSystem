@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import img from '../Images/undraw_Sync_files_re_ws4c.png';
+import img from '../Images/addroompic.jpg';
 import '../CSS/Room_Management/AddRooms.css';
 import {useHistory} from 'react-router-dom';
 import axios from "axios";
@@ -137,7 +137,7 @@ const AddRooms = () => {
                     </div>
                 </div>
                 <div className="col-sm-6 image">
-                    <img src={img} loading="auto" style={{marginLeft: "-53px", marginTop: "179px" }} height="653px" width="609px"/>
+                    <img src={img} loading="auto" style={{marginLeft: "140px", marginTop: "95px" }} height="776px" width="550px"/>
                 </div>
             </div>
         </div>
