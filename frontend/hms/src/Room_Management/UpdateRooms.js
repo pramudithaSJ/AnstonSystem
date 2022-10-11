@@ -147,7 +147,7 @@ const UpdateRooms = ({match}) => {
                                         <div><label>Facilities</label><textarea id="w3review" class="form-control" rows="4" cols="50" onChange={facilitiesSetter} placeholder={Room.Facilities} /></div>
                                         <div><label>Description</label><textarea id="w3review" className="form-control" rows="4" cols="50" onChange={descriptionSetter} placeholder={Room.Description} /></div>
                                         <br/>
-                                        <button className="btn btn-warning" type="submit" id="updaterooms" onClick={onSubmit}>&nbsp;Update Room</button>&nbsp;&nbsp;
+                                        <button className="updatebtn" type="submit" id="updaterooms" onClick={onSubmit}>&nbsp;Update Room</button>&nbsp;&nbsp;
                                         <br/>
                                         <br/>
 
