@@ -8,7 +8,7 @@ router.route("/add").post((req,res)=>{
     const RoomType = req.body.RoomType;
     const avatar = req.body.avatar;
     const Sleeps = req.body.Sleeps;
-    const CurrentPrice = req.body.CurrentPrice;
+    const CurrentPrice = req.body.CurrentPrice; 
     const Facilities = req.body.Facilities;
     const Description = req.body.Description;
 
