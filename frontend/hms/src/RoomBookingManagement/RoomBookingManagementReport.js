@@ -102,8 +102,8 @@ const RoomBookingManagementReport = () => {
                                     </table>
                                     <br/>
 
-                                    <div className='editBtn'>
-                <Link className="btn-btn-success-btngena" role="button" text-color="red" id={"generate"}onClick={genaratePDF}>
+                                    <div className='btng1'>
+                <Link className="btn-success-btngena" role="button" text-color="red" id={"generate"}onClick={genaratePDF}>
                     Generate Report&nbsp;&nbsp;
                     <em className="fa fa-file-pdf-o" id="icon"></em>
                 </Link>

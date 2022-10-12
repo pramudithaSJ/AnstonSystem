@@ -53,6 +53,7 @@ td{
     background-color: #053930;
     border-radius: 5px;
     padding:5px;
+    color: white;
 }
 .row1{
     margin-left: -80px;
@@ -100,4 +101,15 @@ margin-right:10px;
     float:right;
     margin-right:240px; 
    
+}
+
+.btng1{
+    width:136px;
+    height: 30px;
+    margin-left:1116px;
+    padding-right:500px;
+    background-color: #053930;
+    border-radius: 5px;
+    padding:5px;
+    color: white;
 }
