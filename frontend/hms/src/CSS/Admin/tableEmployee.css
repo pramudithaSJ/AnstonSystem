@@ -17,11 +17,13 @@
     border-color: #dee2e6;
 
 
+
     display: table;
         /*border-collapse: unset;*/
     box-sizing: border-box;
     text-indent: initial;
     border-spacing: 2px;
+    
 
 }
 th{
@@ -56,7 +58,8 @@ td{
     color: white;
 }
 .row1{
-    margin-left: -80px;
+    margin-left: -95px;
+    
 }
 .row2{
     margin-left: 320px;
@@ -112,4 +115,10 @@ margin-right:10px;
     border-radius: 5px;
     padding:5px;
     color: white;
+
+}
+
+.btng1:hover{
+    background-color: darkgreen;
+    color: aliceblue;
 }
