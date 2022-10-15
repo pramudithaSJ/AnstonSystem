@@ -68,18 +68,18 @@ const CustomerRegistration = () => {
                                             <h2 className="text-center">SignUp</h2>
                                             <br />
                                             <div className="container   ">
-                                                <div><label>Enter Name</label><input className="form-control" type="text" onChange={NameSetter} />
+                                                <div><label>Enter Name</label><input className="form-control" required type="text" onChange={NameSetter} />
                                                 </div>
                                                 <div className="form-group">
-                                                    <div><label>Enter Address</label><input className="form-control" type="text" onChange={AddressSetter} />
+                                                    <div><label>Enter Address</label><input className="form-control" required type="text" onChange={AddressSetter} />
                                                     </div>
-                                                    <div><label>Enter Phone Number</label><input className="form-control"
+                                                    <div><label>Enter Phone Number</label><input className="form-control" required
                                                          type="Number" onChange={PhoneNumberSetter} /></div>
-                                                    <div><label>Enter NIC Number</label><input className="form-control" 
+                                                    <div><label>Enter NIC Number</label><input className="form-control" required maxlength="12"
                                                                                                       type="text" onChange={NICNumberSetter} /></div>
-                                                    <div><label>Enter Email</label><input className="form-control" 
+                                                    <div><label>Enter Email</label><input className="form-control" required 
                                                                                                      type="text" onChange={EmailSetter} /></div>
-                                                    <div><label>Enter Password</label><input className="form-control"  
+                                                    <div><label>Enter Password</label><input className="form-control"  required maxlength="8"
                                                                                           type="text" onChange={PasswordSetter} /></div>
                                                     <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                     <button className="btn-btn-primary" type="submit" onClick={onSubmit}>&nbsp;Register&nbsp;</button>
