@@ -17,6 +17,7 @@ router.route("/add").post((req,res)=>{
         Code,
         Image,
         Name,
+        Type,
         Price
     })
 
@@ -48,6 +49,7 @@ router.route("/update/:id").put(async (req,res)=>{
         Code,
         Image,
         Name,
+        Type,
         Price
     }
 
@@ -81,6 +83,16 @@ router.route("/get/:id").get((req,res)=>{
         console.log(err);
     })
 })
+//find a food  by category
+router.route("/get/:id").get((req,res)=>{
+    let id = req.params.id;
+    Food.findById(id).then((food)=>{
+        res.json(food)
+    }).catch((err)=>{
+        console.log(err);
+    })
+})
+
 
 //Update one field only
 router.route("/updateOne/:id").put(async (req, res) => {
@@ -89,6 +101,7 @@ router.route("/updateOne/:id").put(async (req, res) => {
         Code: req.body.Code || food.Code,
         Image: req.body.Image || food.Image,
         Name: req.body.Name || food.Name,
+        Type:req.body.Type || food.Type,
         Price: req.body.Price || food.Price,
     };
     food = await Food.findByIdAndUpdate(req.params.id, data, { new: true });
