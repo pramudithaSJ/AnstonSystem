@@ -7,6 +7,7 @@ import './employee.css';
 import Footer from '../Common/HomePage/footer/footer';
 
 const EmployeeAdd = () => {
+
     const history = useHistory();
 
     const[Name, setName] = useState("");
@@ -36,9 +37,6 @@ const EmployeeAdd = () => {
     const SalarySetter = (e) => {
         setSalary(e.target.value);
     }
-
-
-
 
     const onSubmit = (e) => {
         e.preventDefault();
