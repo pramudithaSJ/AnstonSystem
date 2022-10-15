@@ -100,6 +100,7 @@ const FoodManagement = () => {
                                             <tr>
                                                 <td>{food.Code}</td>
                                                 <td>{food.Name}</td>
+                                                <td>{food.Type}</td>
                                                 <td><img width="200px "src={food.Image} /></td>
                                                 <td>Rs. {food.Price}.00</td>
                                                 <br />

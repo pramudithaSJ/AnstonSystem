@@ -98,7 +98,7 @@ const CustomerViewFood = () => {
  
                 <div id="radios">
                     <label for="Adult Meal" class="material-icons">
-                    <input type="radio" name="mode" id="Adult Meal" value="Adult Meal"/>
+                    <input type="radio" name="mode" id="Adult Meal" value="Adult Meal" onChange={event =>{setSearchWord(event.target.value)}}/>
                     <span>emoji_people</span>
                     </label>                
                     {/* <label for="Kids Meal" class="material-icons">
@@ -106,15 +106,15 @@ const CustomerViewFood = () => {
                     <span>&#xE52F;</span>
                     </label> */}
                     <label for="Desserts" class="material-icons">
-                    <input type="radio" name="mode" id="Desserts" value="walking" />
+                    <input type="radio" name="mode" id="Desserts" value="Desserts" onChange={event =>{setSearchWord(event.target.value)}}/>
                     <span > icecream</span>
                     </label>
                     <label for="KidsMeal" class="material-icons">
-                    <input type="radio" name="mode" id="KidsMeal" value="KidsMeal" />
+                    <input type="radio" name="mode" id="KidsMeal" value="KidsMeal"onChange={event =>{setSearchWord(event.target.value)}} />
                     <span > child_care</span>
                     </label>
                     <label for="All" class="material-icons">
-                    <input type="radio" name="mode" id="All" value="" />
+                    <input type="radio" name="mode" id="All" value="" onChange={event =>{setSearchWord(event.target.value)}}/>
                     <span > menu</span>
                     </label>
                     
