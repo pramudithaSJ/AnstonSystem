@@ -10,6 +10,7 @@ router.route("/add").post((req,res)=>{
     const Code = req.body.Code;
     const Image = req.body.Image;
     const Name = req.body.Name;
+    const Type = req.body.Type;
     const Price = req.body.Price;
 
     const newFood = new Food({
