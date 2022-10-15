@@ -14,6 +14,10 @@ const Foodschema = new schema({
         type : String,
         required : true
     },
+    Type :{
+        type : String,
+        required : true
+    },
     Price : {
         type : String,
         required : true
