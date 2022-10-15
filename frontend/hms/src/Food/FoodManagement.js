@@ -81,6 +81,7 @@ const FoodManagement = () => {
                                     <tr>
                                         <th className="text-center">Code</th>
                                         <th className="text-center ">Name</th>
+                                        <th className="text-center ">Category</th>
                                         <th className="text-center col-lg-4">Image</th>
                                         <th className="text-center">Price</th>
                                         <th className="text-center">Actions</th>
