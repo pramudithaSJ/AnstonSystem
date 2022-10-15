@@ -76,9 +76,9 @@ const GenerateFoodReport = () => {
                                            id="ipi-table">
                                         <thead className="thead-dark">
                                         <tr>
-                                            <th className="text-center">Food ID</th>
-                                            <th className="text-center col-lg-4">Food Code</th>
-                                            <th className="text-center">Food Name</th>
+                                            <th className="text-center">Food Code</th>
+                                            <th className="text-center col-lg-4">Food NAme</th>
+                                            <th className="text-center">Food Type</th>
                                             <th className="text-center">Unit Price</th>
 
                                         </tr>
@@ -90,12 +90,17 @@ const GenerateFoodReport = () => {
                                             }else if(val.Name.toLowerCase().includes(SearchWord.toLowerCase())|| val.Code.toLowerCase().includes(SearchWord.toLowerCase())) {
                                                 return val
                                             }
+                                            else if(val.Type.toLowerCase().includes(SearchWord.toLowerCase())|| val.Code.toLowerCase().includes(SearchWord.toLowerCase())) {
+                                                return val
+                                            }
                                         }).map((food) => {
                                             return (
                                                 <tr>
-                                                    <td>{food._id}</td>
                                                     <td>{food.Code}</td>
                                                     <td>{food.Name}</td>
+                                                    <td>{food.Type}</td>
+                                                    
+                                                    
                                                     <td>Rs. {food.Price}.00</td>
                                                     <br />
 

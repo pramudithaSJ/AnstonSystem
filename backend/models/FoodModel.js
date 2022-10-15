@@ -16,7 +16,7 @@ const Foodschema = new schema({
     },
     Type :{
         type : String,
-        required : true
+       
     },
     Price : {
         type : String,

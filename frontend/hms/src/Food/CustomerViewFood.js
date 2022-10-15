@@ -106,11 +106,11 @@ const CustomerViewFood = () => {
                     <span>&#xE52F;</span>
                     </label> */}
                     <label for="Desserts" class="material-icons">
-                    <input type="radio" name="mode" id="Desserts" value="Desserts" onChange={event =>{setSearchWord(event.target.value)}}/>
+                    <input type="radio" name="mode" id="Desserts" value="Dessert" onChange={event =>{setSearchWord(event.target.value)}}/>
                     <span > icecream</span>
                     </label>
                     <label for="KidsMeal" class="material-icons">
-                    <input type="radio" name="mode" id="KidsMeal" value="KidsMeal"onChange={event =>{setSearchWord(event.target.value)}} />
+                    <input type="radio" name="mode" id="KidsMeal" value="Kids Meal"onChange={event =>{setSearchWord(event.target.value)}} />
                     <span > child_care</span>
                     </label>
                     <label for="All" class="material-icons">
