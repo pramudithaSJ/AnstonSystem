@@ -91,26 +91,30 @@ const CustomerViewFood = () => {
 
             </div>
                 <div className="row">
-                <div className="col-3">
+                <div className="col-2">
 
                 </div>
-                <div className="col-6">
+                <div className="col-8">
                 <div className="radio">
                 <div classname="col-2">
                 <label>Adult Meal</label>
                 <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
                 </div>
                 <div classname="col-2">
-                <label>Adult Meal</label>
+                <label>Kids Meal</label>
                 <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
                 </div>
                 <div classname="col-2">
                 <label>Adult Meal</label>
                 <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
                 </div>
+                <div classname="col-2">
+                <label>All</label>
+                <input type="radio" name="type" value=""  onChange={event =>{setSearchWord(event.target.value)}}/>
                 </div>
                 </div>
-                <div className="col-3">
+                </div>
+                <div className="col-2">
                
                 
                 </div>
@@ -125,6 +129,9 @@ const CustomerViewFood = () => {
                 if(SearchWord ==""){
                     return val
                 }else if(val.Name.toLowerCase().includes(SearchWord.toLowerCase())) {
+                    return val
+                }
+                else if(SearchWord==val.Type) {
                     return val
                 }
             }).map((food) => (
