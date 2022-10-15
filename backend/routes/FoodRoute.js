@@ -83,15 +83,6 @@ router.route("/get/:id").get((req,res)=>{
         console.log(err);
     })
 })
-//find a food  by category
-router.route("/get/:id").get((req,res)=>{
-    let id = req.params.id;
-    Food.findById(id).then((food)=>{
-        res.json(food)
-    }).catch((err)=>{
-        console.log(err);
-    })
-})
 
 
 //Update one field only
