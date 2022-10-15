@@ -6,6 +6,7 @@ import Header from "../Common/HomePage/header/header";
 import Footer from "../Common/HomePage/footer/footer";
 import "./Css/Cusview.css"
 import AdminNav from "../Common/AdminSide/AdminNav";
+import 'material-icons/iconfont/material-icons.css';
 
 
 const CustomerViewFood = () => {
@@ -90,56 +91,35 @@ const CustomerViewFood = () => {
                 </div>
 
             </div>
-                <div className="row">
-                <div className="col-2">
-
-                </div>
-                <div className="col-8">
-                <div className="radio">
-                <div classname="col-2">
-                <label>Adult Meal</label>
-                <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
                 
-                </div>
-                <div classname="col-2">
-                <label>Kids Meal</label>
-                <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
-                </div>
-                <div classname="col-2">
-                <label>Dessert</label>
-                <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
-                </div>
-                <div classname="col-2">
-                <label>All</label>
-                <input type="radio" name="type" value=""  onChange={event =>{setSearchWord(event.target.value)}}/>
-                </div>
-                </div>
-                </div>
-                <div className="col-2">
-               
-                
-                </div>
-              
-                </div>
             </section>
-            <section>
+            <section className="filter">
             <div class="container">
-  <h1>Google maps radio buttons CSS only</h1>
-  <div id="radios">
-    <label for="driving" class="material-icons">
-      <input type="radio" name="mode" id="driving" value="driving" checked/>
-      <span>&#xE531;</span>
-    </label>                
-    <label for="cycling" class="material-icons">
-      <input type="radio" name="mode" id="cycling" value="cycling" />
-      <span>&#xE52F;</span>
-    </label>
-    <label for="walking" class="material-icons">
-      <input type="radio" name="mode" id="walking" value="walking" />
-      <span>&#xE536;</span>
-    </label>
-  </div>
-</div>
+ 
+                <div id="radios">
+                    <label for="Adult Meal" class="material-icons">
+                    <input type="radio" name="mode" id="Adult Meal" value="Adult Meal"/>
+                    <span>emoji_people</span>
+                    </label>                
+                    {/* <label for="Kids Meal" class="material-icons">
+                    <input type="radio" name="mode" id="cycling" value="cycling" />
+                    <span>&#xE52F;</span>
+                    </label> */}
+                    <label for="Desserts" class="material-icons">
+                    <input type="radio" name="mode" id="Desserts" value="walking" />
+                    <span > icecream</span>
+                    </label>
+                    <label for="KidsMeal" class="material-icons">
+                    <input type="radio" name="mode" id="KidsMeal" value="KidsMeal" />
+                    <span > child_care</span>
+                    </label>
+                    <label for="All" class="material-icons">
+                    <input type="radio" name="mode" id="All" value="" />
+                    <span > menu</span>
+                    </label>
+                    
+                </div>
+                </div>
             </section>
         
            
