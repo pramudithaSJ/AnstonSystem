@@ -80,7 +80,7 @@ const CustomerViewFood = () => {
                 </div>
                 <div className="col-6">
                 <div className="sea">
-                    <input type="search" className="form-control" placeholder="Search..." onChange={event =>{setSearchWord(event.target.value)}}/>
+                    <input type="search" className="form-control" placeholder="Search by Name" onChange={event =>{setSearchWord(event.target.value)}}/>
                 </div>
                 </div>
                 <div className="col-3">
@@ -90,13 +90,34 @@ const CustomerViewFood = () => {
                 </div>
 
             </div>
+                <div className="row">
+                <div className="col-3">
 
-            </section>
-            <section className="sbar">
-            <div className="col-xs-6">
+                </div>
+                <div className="col-6">
+                <div className="radio">
+                <div classname="col-2">
+                <label>Adult Meal</label>
+                <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
+                </div>
+                <div classname="col-2">
+                <label>Adult Meal</label>
+                <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
+                </div>
+                <div classname="col-2">
+                <label>Adult Meal</label>
+                <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
+                </div>
+                </div>
+                </div>
+                <div className="col-3">
+               
                 
-            </div>
+                </div>
+              
+                </div>
             </section>
+        
            
             
             <br/><br />
