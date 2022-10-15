@@ -13,7 +13,7 @@
 } */
 
 .radio{
-    background-color: aqua;
+    background-color: rgb(102, 109, 109);
     height: 60px;
     padding: 20px;
     display: flex;
@@ -21,3 +21,73 @@
     gap: 100px;
 
 }
+#radios label {
+    cursor: pointer;
+    position: relative;
+  }
+  
+  #radios label + label {
+    margin-left: 15px;
+  }
+  
+  input[type="radio"] {
+    opacity: 0; /* hidden but still tabable */
+    position: absolute;
+  }
+  
+  input[type="radio"] + span {
+    font-family: 'Material Icons';
+    color: #B3CEFB;
+    border-radius: 50%;
+    padding: 12px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+  }
+  
+  input[type="radio"]:checked + span {
+    color: #D9E7FD;
+    background-color: #4285F4;
+  }
+  
+  input[type="radio"]:focus + span {
+    color: #fff;
+  }
+  
+  /* ================ TOOLTIPS ================= */
+  
+  #radios label:hover::before {
+    content: attr(for);
+    font-family: Roboto, -apple-system, sans-serif;
+    text-transform: capitalize;
+    font-size: 11px;
+    position: absolute;
+    top: 170%;
+    left: 0;
+    right: 0;
+    opacity: 0.75;
+    background-color: #323232;
+    color: #fff;  
+    padding: 4px;
+    border-radius: 3px;
+    display: block;
+  }
+  
+  /* =============================================
+  * CENTERING, CONTAINER STYLING ETC || IGNORE
+  =============================================== */
+  
+  h1 {
+    font-weight: 300;
+    color: #D9E7FD;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #radios {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .container {
+    margin: 0 auto;
+  }

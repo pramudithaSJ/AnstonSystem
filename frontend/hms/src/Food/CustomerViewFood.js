@@ -99,13 +99,14 @@ const CustomerViewFood = () => {
                 <div classname="col-2">
                 <label>Adult Meal</label>
                 <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
+                
                 </div>
                 <div classname="col-2">
                 <label>Kids Meal</label>
                 <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
                 </div>
                 <div classname="col-2">
-                <label>Adult Meal</label>
+                <label>Dessert</label>
                 <input type="radio" name="type" value="Adult Meal"  onChange={event =>{setSearchWord(event.target.value)}}/>
                 </div>
                 <div classname="col-2">
@@ -120,6 +121,25 @@ const CustomerViewFood = () => {
                 </div>
               
                 </div>
+            </section>
+            <section>
+            <div class="container">
+  <h1>Google maps radio buttons CSS only</h1>
+  <div id="radios">
+    <label for="driving" class="material-icons">
+      <input type="radio" name="mode" id="driving" value="driving" checked/>
+      <span>&#xE531;</span>
+    </label>                
+    <label for="cycling" class="material-icons">
+      <input type="radio" name="mode" id="cycling" value="cycling" />
+      <span>&#xE52F;</span>
+    </label>
+    <label for="walking" class="material-icons">
+      <input type="radio" name="mode" id="walking" value="walking" />
+      <span>&#xE536;</span>
+    </label>
+  </div>
+</div>
             </section>
         
            
