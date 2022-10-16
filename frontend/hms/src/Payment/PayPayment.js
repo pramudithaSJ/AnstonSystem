@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react';
-import img from '../Images/febrian-zakaria-gwV9eklemSg-unsplash.jpg';
+import img from '../Images/payment.jpg';
 import '../CSS/payment/payment.css';
 import axios from "axios";
 import {useHistory} from "react-router-dom";

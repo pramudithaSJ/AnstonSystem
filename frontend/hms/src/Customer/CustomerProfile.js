@@ -62,6 +62,8 @@ const CustomerProfile = () => {
                                 <br />
                                 <div className="container   ">
                                     <div className="form-group">
+                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <label><h3>My Profile</h3></label> 
                                         <div><label>Name</label><input className="form-control" type="text" readOnly placeholder={Customer.Name}/>
                                         </div>
                                         <div><label>Address</label><input className="form-control"
