@@ -83,6 +83,10 @@ cart1{
     width: 350px;
     background-color: rgb(61, 14, 16);
 }
+.cancel:hover{
+    background-color: rgb(146, 36, 41);
+
+}
 .out{
     font-weight: bold;
     padding: 10px;
@@ -90,4 +94,9 @@ cart1{
     text-align: center;
     width: 350px;
     background-color: rgb(19, 48, 29);
+}
+.out:hover{
+    
+    background-color: rgb(15, 147, 61);
+
 }

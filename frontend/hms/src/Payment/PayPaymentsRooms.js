@@ -167,12 +167,11 @@ console.log(difference)
                             </form>
                         </div>
                     </div>
+                    <div className="col-sm-5 image">
+                <img src=''></img>
                 </div>
-                <div className="col-sm-5 image">
-                    {/*<img src={img} loading="auto" alt="center" height="500"*/}
-                    {/*     width="600"/>*/}
-                </div>
-
+                </div> 
+              
 
             </div>
         </div>

@@ -135,7 +135,8 @@ const CustomerViewFood = () => {
                     return val
                 }
             }).map((food) => (
-                <div className="viewFoodCard" key={food._id}>
+                 
+                <div className="viewFoodCard col-12" key={food._id}>
                     <div className="foodLabels" >{food.Name}</div>
                     <embed src={food.Image}
                            alt="img" width={"100%"}
@@ -157,6 +158,7 @@ const CustomerViewFood = () => {
                         <br/>
                     </div>
                 </div>
+                
             ))}
             <Footer/>
         </div>

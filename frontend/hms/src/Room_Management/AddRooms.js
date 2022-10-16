@@ -122,7 +122,7 @@ const AddRooms = () => {
                                         </div>
                                         </div>
                                         <div><label>Sleeps</label><input id='left' className="form-control" type="number"  onChange={sleepsSetter} /></div>
-                                        <div><label>Current Price</label><input className="form-control"  type="text"  onChange={currentpriceSetter} /></div>
+                                        <div><label>Current Price</label><input className="form-control"  type="number"  onChange={currentpriceSetter} /></div>
                                         <div><label>Facilities</label><textarea id="w3review" className="form-control" rows="4" cols="50" onChange={facilitiesSetter} /></div>
                                         <div><label>Description</label><textarea id="w3review" className="form-control" rows="4" cols="50" onChange={descriptionSetter} /></div>
                                         <br/>

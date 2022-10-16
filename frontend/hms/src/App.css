@@ -141,6 +141,8 @@ input[type="file"] {
 }
 
 .viewFoodCard {
+  max-width: 100%;
+  border-radius: 10px;
   background: #d2d7d3;
   display: inline-block;
   width: 250px;
