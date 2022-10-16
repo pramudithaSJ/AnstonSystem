@@ -54,8 +54,10 @@ const PaymentRouter = require("./routes/PaymentRoute.js");
 app.use("/Payment",PaymentRouter);
 
 
-//run the app using port
+//run the app using portd
 app.listen(PORT, () =>{
     console.log(`Server is up and running on port number: ${PORT}`);
 
 })
+
+   
