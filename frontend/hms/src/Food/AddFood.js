@@ -14,6 +14,7 @@ const AddFood = () => {
     const[Code, setCode] = useState("");
     const[Name, setName] = useState("");
     const[Price, setPrice] = useState("");
+    const[Type, setType]= useState("");
     const [file, setFile] = useState(null);
     const [error, setError] = useState(null);
     const [url, setUrl] = useState(null);
@@ -29,6 +30,10 @@ const AddFood = () => {
     const priceSetter = (e) => {
         setPrice(e.target.value);
     }
+    const typeSetter =(e)=>{
+        setType(e.target.value);
+    }
+
 
     const onSubmit = (e) => {
             e.preventDefault();
@@ -36,6 +41,7 @@ const AddFood = () => {
                 Code: Code,
                 Image: url,
                 Name: Name,
+                Type: Type,
                 Price: Price
             };
             if(document.getElementById("name").value==""){
@@ -133,9 +139,10 @@ const AddFood = () => {
                                         onChange={priceSetter} />
                                         </div>
                                         <div><label>Category</label>
-                                         <select class="form-select" >
-                                            <option>Kids Meal</option>
-                                            <option> Adult Meal</option>
+                                         <select class="form-select" onChange={typeSetter} >
+                                            <option> select</option>
+                                            <option> Kids Meal</option>
+                                            <option> Adult</option>
                                             <option> Dessert</option>
 
                                          </select>

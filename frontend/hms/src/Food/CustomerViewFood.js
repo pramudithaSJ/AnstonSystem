@@ -6,6 +6,7 @@ import Header from "../Common/HomePage/header/header";
 import Footer from "../Common/HomePage/footer/footer";
 import "./Css/Cusview.css"
 import AdminNav from "../Common/AdminSide/AdminNav";
+import 'material-icons/iconfont/material-icons.css';
 
 
 const CustomerViewFood = () => {
@@ -80,7 +81,7 @@ const CustomerViewFood = () => {
                 </div>
                 <div className="col-6">
                 <div className="sea">
-                    <input type="search" className="form-control" placeholder="Search..." onChange={event =>{setSearchWord(event.target.value)}}/>
+                    <input type="search" className="form-control" placeholder="Search by Name" onChange={event =>{setSearchWord(event.target.value)}}/>
                 </div>
                 </div>
                 <div className="col-3">
@@ -90,13 +91,37 @@ const CustomerViewFood = () => {
                 </div>
 
             </div>
-
-            </section>
-            <section className="sbar">
-            <div className="col-xs-6">
                 
-            </div>
             </section>
+            <section className="filter">
+            <div class="container">
+ 
+                <div id="radios">
+                    <label for="Adult Meal" class="material-icons">
+                    <input type="radio" name="mode" id="Adult Meal" value="Adult Meal" onChange={event =>{setSearchWord(event.target.value)}}/>
+                    <span>emoji_people</span>
+                    </label>                
+                    {/* <label for="Kids Meal" class="material-icons">
+                    <input type="radio" name="mode" id="cycling" value="cycling" />
+                    <span>&#xE52F;</span>
+                    </label> */}
+                    <label for="Desserts" class="material-icons">
+                    <input type="radio" name="mode" id="Desserts" value="Dessert" onChange={event =>{setSearchWord(event.target.value)}}/>
+                    <span > icecream</span>
+                    </label>
+                    <label for="KidsMeal" class="material-icons">
+                    <input type="radio" name="mode" id="KidsMeal" value="Kids Meal"onChange={event =>{setSearchWord(event.target.value)}} />
+                    <span > child_care</span>
+                    </label>
+                    <label for="All" class="material-icons">
+                    <input type="radio" name="mode" id="All" value="" onChange={event =>{setSearchWord(event.target.value)}}/>
+                    <span > menu</span>
+                    </label>
+                    
+                </div>
+                </div>
+            </section>
+        
            
             
             <br/><br />
@@ -104,6 +129,9 @@ const CustomerViewFood = () => {
                 if(SearchWord ==""){
                     return val
                 }else if(val.Name.toLowerCase().includes(SearchWord.toLowerCase())) {
+                    return val
+                }
+                else if(SearchWord==val.Type) {
                     return val
                 }
             }).map((food) => (

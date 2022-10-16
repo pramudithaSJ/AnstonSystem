@@ -68,7 +68,7 @@ const AdminPanelCustomers = () => {
                                         <th className="text-center">Phone number</th>
                                         <th className="text-center">NIC Number</th>
                                         <th className="text-center">Email</th>
-                                        <th className="text-center">Password</th>
+                                        {/* <th className="text-center">Password</th> */}
                                         <th className="text-center">Actions</th>
                                     </tr>
                                     </thead>
@@ -87,7 +87,7 @@ const AdminPanelCustomers = () => {
                                                 <td>{customer.PhoneNumber}</td>
                                                 <td>{customer.NICNumber}</td>
                                                 <td>{customer.Email}</td>
-                                                <td>{customer.Password}</td>
+                                                {/* <td>{customer.Password}</td> */}
                                                 <br />
                                                 <Link class="btn btn-success" role="button" to={`UpdateCustomers/${customer._id}`}>
                                                     <em className="fa fa-edit" id="icon"></em>

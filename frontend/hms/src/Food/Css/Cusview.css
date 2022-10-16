@@ -1,5 +1,5 @@
 .sbar{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 #s1{
     margin-top: 120px;
@@ -11,3 +11,75 @@
     width: 100%;
     height: 100px;
 } */
+
+
+#radios label {
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    font-size: 30px;
+  }
+  
+  #radios label + label {
+    margin-left: 15px;
+   
+  }
+  
+  input[type="radio"] {
+    opacity: 0; /* hidden but still tabable */
+    position: absolute;
+  }
+  
+  input[type="radio"] + span {
+    font-family: 'Material Icons';
+    color: #010203;
+    border-radius: 50%;
+    padding: 12px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+  }
+  
+  input[type="radio"]:checked + span {
+    color: #D9E7FD;
+    background-color: #113a15;
+  }
+  
+  input[type="radio"]:focus + span {
+    color: rgb(53, 214, 45);
+   
+  }
+  
+  /* ================ TOOLTIPS ================= */
+  
+  #radios label:hover::before {
+    content: attr(for);
+    font-family: Roboto, -apple-system, sans-serif;
+    text-transform: capitalize;
+    font-size: 11px;
+    position: absolute;
+    top: 170%;
+    left: 0;
+    right: 0;
+    opacity: 0.75;
+    background-color: #323232;
+    color: #fff;  
+    padding: 4px;
+    border-radius: 3px;
+    display: block;
+  }
+  
+  /* =============================================
+  * CENTERING, CONTAINER STYLING ETC || IGNORE
+  =============================================== */
+  
+
+  
+  #radios {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .container {
+    margin: 20px auto;
+  }
+  

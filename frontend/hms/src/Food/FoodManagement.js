@@ -81,6 +81,7 @@ const FoodManagement = () => {
                                     <tr>
                                         <th className="text-center">Code</th>
                                         <th className="text-center ">Name</th>
+                                        <th className="text-center ">Category</th>
                                         <th className="text-center col-lg-4">Image</th>
                                         <th className="text-center">Price</th>
                                         <th className="text-center">Actions</th>
@@ -99,6 +100,7 @@ const FoodManagement = () => {
                                             <tr>
                                                 <td>{food.Code}</td>
                                                 <td>{food.Name}</td>
+                                                <td>{food.Type}</td>
                                                 <td><img width="200px "src={food.Image} /></td>
                                                 <td>Rs. {food.Price}.00</td>
                                                 <br />

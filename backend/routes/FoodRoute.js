@@ -10,12 +10,14 @@ router.route("/add").post((req,res)=>{
     const Code = req.body.Code;
     const Image = req.body.Image;
     const Name = req.body.Name;
+    const Type = req.body.Type;
     const Price = req.body.Price;
 
     const newFood = new Food({
         Code,
         Image,
         Name,
+        Type,
         Price
     })
 
@@ -47,6 +49,7 @@ router.route("/update/:id").put(async (req,res)=>{
         Code,
         Image,
         Name,
+        Type,
         Price
     }
 
@@ -81,6 +84,7 @@ router.route("/get/:id").get((req,res)=>{
     })
 })
 
+
 //Update one field only
 router.route("/updateOne/:id").put(async (req, res) => {
     let food = await Food.findById(req.params.id);
@@ -88,6 +92,7 @@ router.route("/updateOne/:id").put(async (req, res) => {
         Code: req.body.Code || food.Code,
         Image: req.body.Image || food.Image,
         Name: req.body.Name || food.Name,
+        Type:req.body.Type || food.Type,
         Price: req.body.Price || food.Price,
     };
     food = await Food.findByIdAndUpdate(req.params.id, data, { new: true });
